@@ -53,7 +53,7 @@
 					success: function(d){
 						if(d.success==true){
 							layer.msg(d.msg, function(){
-								// window.location.href="{:U('login')}";
+								window.location.href="{:U('showdata')}";
 							});
 						}else{
 							layer.msg(d.msg);
