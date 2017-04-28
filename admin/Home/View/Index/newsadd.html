@@ -1,0 +1,87 @@
+<extend name="common" />
+<block name="content">
+  <div class="am-cf am-padding">
+    <div class="am-fl am-cf"> <strong class="am-text-primary am-text-lg">文章管理</strong>
+      /
+      <small>{$title}</small>
+    </div>
+  </div>
+
+  <div class="am-g">
+    <div class="am-u-sm-12">
+      <form class="am-form" method="post" enctype="multipart/form-data">
+        <div class="am-g am-margin-top">
+          <div class="am-u-sm-4 am-u-md-2 am-text-right">文章标题</div>
+          <div class="am-u-sm-8 am-u-md-4">
+            <input type="text" class="am-input-sm" name="title" value="{$vo.title}"></div>
+          <div class="am-hide-sm-only am-u-md-6">*必填</div>
+        </div>
+        
+        <!-- <div class="am-g am-margin-top">
+          <div class="am-u-sm-4 am-u-md-2 am-text-right">所属分类</div>
+          <div class="am-u-sm-8 am-u-md-4">
+            <select name="cate_id">
+              <volist name="list" id="list">
+              <if condition="$vo['cate_id'] == $key">
+                <option value="{$key}" class="toggle-data" selected>{$list}</option>
+              <else />
+                <option value="{$key}" class="toggle-data">{$list}</option>
+              </if>
+              </volist>
+            </select>  
+          </div>
+          <div class="am-hide-sm-only am-u-md-6">*必选</div>
+        </div> -->
+
+        <div class="am-g am-margin-top">
+          <div class="am-u-sm-4 am-u-md-2 am-text-right">封面图片</div>
+          <div class="am-u-sm-8 am-u-md-4">
+            <input type="file" class="am-input-sm" name="cover" >
+            <if condition="!empty($vo['cover'])">
+              <img style="margin-top:10px;max-height:100px;" src="__PUBLIC__/uploads/{$vo.cover}">
+            </if>
+          </div>
+          <div class="am-hide-sm-only am-u-md-6">选填</div>
+        </div>
+
+ 
+
+        
+
+        <div class="am-g am-margin-top">
+          <div class="am-u-sm-4 am-u-md-2 am-text-right">内容</div>
+          <div class="am-u-sm-8 am-u-md-8">
+            <!-- 加载编辑器的容器 -->
+            <script id="container" name="content" type="text/plain">
+            {$vo.content}
+            </script>
+            <!-- 配置文件 -->
+            <script type="text/javascript" src="__PUBLIC__/ueditor/ueditor.config.js"></script>
+            <!-- 编辑器源码文件 -->
+            <script type="text/javascript" src="__PUBLIC__/ueditor/ueditor.all.js"></script>
+            <!-- 实例化编辑器 -->
+            <script type="text/javascript">
+                var ue = UE.getEditor('container');
+            </script>
+          </div>
+          <div class="am-u-sm-4 am-u-md-2"></div>
+        </div>
+
+        <!-- <div class="am-g am-margin-top">
+          <div class="am-u-sm-4 am-u-md-2 am-text-right">排序号</div>
+          <div class="am-u-sm-8 am-u-md-4">
+            <input type="text" name="sort" class="am-input-sm" value="{$vo.sort}"></div>
+          <div class="am-hide-sm-only am-u-md-6">数值越小越靠前</div>
+        </div> -->
+
+        <div class="am-g am-margin-top">
+          <div class="am-u-sm-4 am-u-md-2">&nbsp;</div>
+          <div class="am-u-sm-8 am-u-md-4">
+            <button type="submit" class="am-btn am-btn-primary am-btn-xs">提交保存</button></div>
+          <div class="am-hide-sm-only am-u-md-6"></div>
+        </div>
+      </form>
+    </div>
+  </div>
+
+</block>

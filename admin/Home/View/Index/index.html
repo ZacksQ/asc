@@ -1,0 +1,68 @@
+<extend name="common" />
+<block name="content">
+  <div class="am-cf am-padding">
+    <div class="am-fl am-cf"> <strong class="am-text-primary am-text-lg">首页</strong>
+      /
+      <small>企业管理</small>
+    </div>
+  </div>
+  <div class="am-cf am-padding">
+    <form class="search" method="post" action="{:U('cms_search')}">
+      <div class="am-fl am-cf">
+        上一年度总收入：<input type="text" name="lyratal">
+        截止目前今年总收入：<input type="text" name="tytotalrevenue">
+        截止目前今年纳税额：<input type="text" name="tyratal">
+        累计拥有专利数：<input type="text" name="patent">
+        员工人数：<input type="text" name="employee">
+        <input type="submit" class="am-btn am-btn-primary am-btn-xs search-btn" value="搜索" />
+      </div>
+    </form>
+  </div>
+  <div class="am-g">
+    <div class="am-u-sm-12">
+      <table class="am-table am-table-bd am-table-striped admin-content-table">
+        <thead>
+          <tr>
+            <th width="100px">ID</th>
+            <th>用户名</th>
+            <th>公司名称</th>
+            <th>负责人</th>
+            <th>电子邮箱</th>      
+            <th width="100px">管理</th>
+          </tr>
+        </thead>
+        <tbody>
+        <volist name="infolist" id="vo">
+          <tr>
+            <td>{$vo.id}</td>
+            <td>{$vo.username}</td>
+            <td>{$vo.companyname}</td>
+            <td>{$vo.principal}</td>
+            <td>{$vo.email}</td>
+          
+            <td>
+              <div class="am-dropdown" data-am-dropdown>
+                <button class="am-btn am-btn-default am-btn-xs am-dropdown-toggle" data-am-dropdown-toggle>
+                  <span class="am-icon-cog"></span>
+                  <span class="am-icon-caret-down"></span>
+                </button>
+                <ul class="am-dropdown-content">
+                  <li>
+                    <a href="{:U('Index/cms_edit?cid='.$vo['id'])}">查看信息</a>
+                  </li>
+                  <li>
+                   <a href="{:U('Index/cms_delete?id='.$vo['id'])}">删除</a>
+                 </li>
+                </ul>
+              </div>
+            </td>
+          </tr>  
+        </volist>
+        </tbody>
+      </table>
+      </div>
+      <div style="height:200px;"></div>
+    </div>
+  </div>
+
+</block>

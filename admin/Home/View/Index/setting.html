@@ -1,0 +1,109 @@
+<extend name="common" />
+<block name="content">
+  <div class="am-cf am-padding">
+    <div class="am-fl am-cf"> <strong class="am-text-primary am-text-lg">系统管理</strong>
+      /
+      <small>功能设置</small>
+    </div>
+  </div>
+
+  <div class="am-g">
+    <div class="am-u-sm-12">
+      <form class="am-form" method="post" enctype="multipart/form-data">
+        <div class="am-g am-margin-top">
+          <div class="am-u-sm-4 am-u-md-2 am-text-right">AppId</div>
+          <div class="am-u-sm-8 am-u-md-4">
+            <input type="text" class="am-input-sm" name="appid" value="{$data.appid}"></div>
+          <div class="am-hide-sm-only am-u-md-6">*必填</div>
+        </div>
+        
+         <div class="am-g am-margin-top">
+          <div class="am-u-sm-4 am-u-md-2 am-text-right">AppSecret</div>
+          <div class="am-u-sm-8 am-u-md-4">
+            <input type="text" class="am-input-sm" name="appsecret" value="{$data.appsecret}"></div>
+          <div class="am-hide-sm-only am-u-md-6">*必填</div>
+        </div>
+
+        <div class="am-g am-margin-top">
+          <div class="am-u-sm-4 am-u-md-2 am-text-right">二维码图片</div>
+          <div class="am-u-sm-8 am-u-md-4">
+            <input type="file" class="am-input-sm" name="codepic" >
+            <if condition="!empty($data['codepic'])">
+              <img style="margin-top:10px;max-height:100px;" src="{$data.codepic}">
+            </if>
+          </div>
+          <div class="am-hide-sm-only am-u-md-6">*必填</div>
+        </div>
+        
+        <div class="am-g am-margin-top">
+          <div class="am-u-sm-4 am-u-md-2 am-text-right">Logo</div>
+          <div class="am-u-sm-8 am-u-md-4">
+            <input type="file" class="am-input-sm" name="logo" >
+            <if condition="!empty($data['logo'])">
+              <img style="margin-top:10px;max-height:100px;" src="{$data.logo}">
+            </if>
+          </div>
+          <div class="am-hide-sm-only am-u-md-6">*必填</div>
+        </div>*必填       
+<!--        <div class="am-g am-margin-top">
+          <div class="am-u-sm-4 am-u-md-2 am-text-right">内容</div>
+          <div class="am-u-sm-8 am-u-md-8">
+          
+            <script id="container" name="rule" type="text/plain">
+            {$data.rule}
+            </script>
+            
+            <script type="text/javascript" src="__PUBLIC__/ueditor/ueditor.config.js"></script>
+          
+            <script type="text/javascript" src="__PUBLIC__/ueditor/ueditor.all.js"></script>
+            
+            <script type="text/javascript">
+                var ue = UE.getEditor('container');
+            </script>
+          </div>
+          <div class="am-u-sm-4 am-u-md-2"></div>
+        </div> -->
+         <script charset="utf-8" src="__PUBLIC__/editor/kindeditor.js"></script>
+        <script charset="utf-8" src="__PUBLIC__/editor/lang/zh_CN.js"></script>
+        <script>
+        KindEditor.ready(function(K) {
+                window.editor = K.create('#container');
+                window.editor = K.create('#welcontainer');
+        });
+        </script>
+        <div class="am-g am-margin-top">
+          <div class="am-u-sm-4 am-u-md-2 am-text-right">规则内容</div>
+          <div class="am-u-sm-8 am-u-md-8">
+        <textarea id="container" name="rule" style="width:700px;height:300px;">{$data.rule}</textarea>
+        </div>
+          <div class="am-u-sm-4 am-u-md-2"></div>
+        </div>
+
+          <div class="am-g am-margin-top">
+          <div class="am-u-sm-4 am-u-md-2 am-text-right">欢迎页面</div>
+          <div class="am-u-sm-8 am-u-md-8">
+        <textarea id="welcontainer" name="welcome" style="width:700px;height:300px;">{$data.welcome}</textarea>
+        </div>
+          <div class="am-u-sm-4 am-u-md-2"></div>
+        </div>
+
+
+        <div class="am-g am-margin-top">
+          <div class="am-u-sm-4 am-u-md-2 am-text-right">审核模式</div>
+          <div class="am-u-sm-8 am-u-md-4">
+            <input type="checkbox" class="am-input-sm" name="auditing" <if condition="$data.auditing eq 1">checked</if>>           
+          </div>
+          <div class="am-hide-sm-only am-u-md-6">选填</div>
+        </div> 
+
+        <div class="am-g am-margin-top">
+          <div class="am-u-sm-4 am-u-md-2">&nbsp;</div>
+          <div class="am-u-sm-8 am-u-md-4">
+            <button type="submit" class="am-btn am-btn-primary am-btn-xs">提交保存</button></div>
+          <div class="am-hide-sm-only am-u-md-6"></div>
+        </div>
+      </form>
+    </div>
+  </div>
+  </div>
+</block>

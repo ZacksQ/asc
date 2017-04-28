@@ -1,0 +1,49 @@
+<extend name="common" />
+<block name="content">
+  <div class="am-cf am-padding">
+    <div class="am-fl am-cf"> <strong class="am-text-primary am-text-lg">文章管理</strong>
+      /
+      <small>{$title}</small>
+    </div>
+  </div>
+
+  <div class="am-g">
+    <div class="am-u-sm-12">
+      <form class="am-form" method="post" enctype="multipart/form-data">
+        <div class="am-g am-margin-top">
+          <div class="am-u-sm-4 am-u-md-2 am-text-right">留言标题</div>
+          <div class="am-u-sm-8 am-u-md-4">
+            {$vo.title}</div>
+          <div class="am-hide-sm-only am-u-md-6"></div>
+        </div>
+        
+        <!-- <div class="am-g am-margin-top">
+          <div class="am-u-sm-4 am-u-md-2 am-text-right">所属分类</div>
+          <div class="am-u-sm-8 am-u-md-4">
+            <select name="cate_id">
+              <volist name="list" id="list">
+              <if condition="$vo['cate_id'] == $key">
+                <option value="{$key}" class="toggle-data" selected>{$list}</option>
+              <else />
+                <option value="{$key}" class="toggle-data">{$list}</option>
+              </if>
+              </volist>
+            </select>  
+          </div>
+          <div class="am-hide-sm-only am-u-md-6">*必选</div>
+        </div> -->
+        <div class="am-g am-margin-top">
+          <div class="am-u-sm-4 am-u-md-2 am-text-right">留言内容</div>
+          <div class="am-u-sm-8 am-u-md-8">
+
+            {$vo.content}
+
+          </div>
+          <div class="am-u-sm-4 am-u-md-2"></div>
+        </div>
+
+      </form>
+    </div>
+  </div>
+
+</block>

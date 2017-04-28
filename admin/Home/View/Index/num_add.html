@@ -1,0 +1,30 @@
+<extend name="common" />
+<block name="content">
+  <div class="am-cf am-padding">
+    <div class="am-fl am-cf"> <strong class="am-text-primary am-text-lg">文章管理</strong>
+      /
+      <small>{$title}</small>
+    </div>
+  </div>
+
+  <div class="am-g">
+    <div class="am-u-sm-12">
+      <form class="am-form" method="post" enctype="multipart/form-data">
+        <div class="am-g am-margin-top">
+          <div class="am-u-sm-4 am-u-md-2 am-text-right">人数</div>
+          <div class="am-u-sm-8 am-u-md-4">
+            <input type="text" class="am-input-sm" name="num" value="{$vo.num}"></div>
+          <div class="am-hide-sm-only am-u-md-6">*必填</div>
+        </div>
+        
+        <div class="am-g am-margin-top">
+          <div class="am-u-sm-4 am-u-md-2">&nbsp;</div>
+          <div class="am-u-sm-8 am-u-md-4">
+            <button type="submit" class="am-btn am-btn-primary am-btn-xs">提交保存</button></div>
+          <div class="am-hide-sm-only am-u-md-6"></div>
+        </div>
+      </form>
+    </div>
+  </div>
+
+</block>
