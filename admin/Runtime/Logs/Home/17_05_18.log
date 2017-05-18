@@ -1,0 +1,869 @@
+[ 2017-05-18T09:28:35+08:00 ] ::1 /yy/admin.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001150s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001886s ]
+SQL: SHOW COLUMNS FROM `wc_users` [ RunTime:0.0409s ]
+SQL: SELECT * FROM `wc_users`  [ RunTime:0.0551s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000153s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000384s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.210550s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.210958s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010318s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010465s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001413s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001547s ]
+
+[ 2017-05-18T09:28:45+08:00 ] ::1 /yy/admin.php/Home/Index/cms_edit/cid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.027095s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.027296s ]
+SQL: SHOW COLUMNS FROM `wc_users` [ RunTime:0.0590s ]
+SQL: SELECT * FROM `wc_users` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0401s ]
+NOTIC: [8] Undefined index: content D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000154s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000422s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.134916s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.135109s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000750s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000831s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000959s ]
+
+[ 2017-05-18T09:29:39+08:00 ] ::1 /yy/admin.php/Home/Index/cms_edit/cid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000568s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000885s ]
+SQL: SHOW COLUMNS FROM `wc_users` [ RunTime:0.0457s ]
+SQL: SELECT * FROM `wc_users` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0492s ]
+NOTIC: [8] Undefined index: content D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000269s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018207s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018454s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000869s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001044s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001124s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001287s ]
+
+[ 2017-05-18T09:29:55+08:00 ] ::1 /yy/admin.php/Home/Index/cms_edit/cid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000663s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000852s ]
+SQL: SHOW COLUMNS FROM `wc_users` [ RunTime:0.0414s ]
+SQL: SELECT * FROM `wc_users` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0488s ]
+NOTIC: [8] Undefined index: content D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000290s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015597s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015739s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000574s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000693s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000815s ]
+
+[ 2017-05-18T09:31:53+08:00 ] ::1 /yy/admin.php/Home/Index/cms_edit/cid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001704s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001822s ]
+SQL: SHOW COLUMNS FROM `wc_users` [ RunTime:0.0424s ]
+SQL: SELECT * FROM `wc_users` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0592s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000271s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.089481s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.089681s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001619s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001751s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001612s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001755s ]
+
+[ 2017-05-18T09:31:59+08:00 ] ::1 /yy/admin.php/Home/Index/download.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000836s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001540s ]
+SQL: SHOW COLUMNS FROM `wc_users` [ RunTime:0.0391s ]
+NOTIC: [8] Undefined index: cid D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 99 行.
+SQL: SELECT * FROM `wc_users` WHERE ( id='' ) LIMIT 1   [ RunTime:0.0485s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000301s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.105439s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.105595s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000656s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000798s ]
+
+[ 2017-05-18T09:32:49+08:00 ] ::1 /yy/admin.php/Home/Index/cms_edit/cid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000835s ]
+SQL: SHOW COLUMNS FROM `wc_users` [ RunTime:0.0485s ]
+SQL: SELECT * FROM `wc_users` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0496s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000227s ]
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' D:\Program Files\wamp\www\yy\admin\Runtime\Cache\Home\e61fb009645fcec3a27cf80d3dbf819f.php 第 67 行.
+NOTIC: [8] Undefined index: id D:\Program Files\wamp\www\yy\admin\Runtime\Cache\Home\e61fb009645fcec3a27cf80d3dbf819f.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015682s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015809s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000723s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000888s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001019s ]
+
+[ 2017-05-18T09:33:04+08:00 ] ::1 /yy/admin.php/Home/Index/cms_edit/cid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000901s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001469s ]
+SQL: SHOW COLUMNS FROM `wc_users` [ RunTime:0.0450s ]
+SQL: SELECT * FROM `wc_users` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0396s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000154s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000372s ]
+NOTIC: [8] Undefined index: id D:\Program Files\wamp\www\yy\admin\Runtime\Cache\Home\e61fb009645fcec3a27cf80d3dbf819f.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026784s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026981s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000787s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000897s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001071s ]
+
+[ 2017-05-18T09:33:10+08:00 ] ::1 /yy/admin.php/Home/Index/cms_edit/cid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000693s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001151s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001365s ]
+SQL: SHOW COLUMNS FROM `wc_users` [ RunTime:0.0394s ]
+SQL: SELECT * FROM `wc_users` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0498s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000164s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000373s ]
+NOTIC: [8] Undefined index: id D:\Program Files\wamp\www\yy\admin\Runtime\Cache\Home\e61fb009645fcec3a27cf80d3dbf819f.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020882s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021078s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000920s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001143s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001047s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001221s ]
+
+[ 2017-05-18T09:34:01+08:00 ] ::1 /yy/admin.php/Home/Index/cms_edit/cid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000636s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001071s ]
+SQL: SHOW COLUMNS FROM `wc_users` [ RunTime:0.0449s ]
+SQL: SELECT * FROM `wc_users` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0465s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000250s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020834s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021039s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000893s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001108s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001367s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001595s ]
+
+[ 2017-05-18T09:35:18+08:00 ] ::1 /yy/admin.php/Home/Index/cms_edit/cid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001232s ]
+SQL: SHOW COLUMNS FROM `wc_users` [ RunTime:0.0401s ]
+SQL: SELECT * FROM `wc_users` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0491s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000248s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017454s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017629s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000705s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001086s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001271s ]
+
+[ 2017-05-18T09:35:23+08:00 ] ::1 /yy/admin.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000660s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000922s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001118s ]
+SQL: SHOW COLUMNS FROM `wc_users` [ RunTime:0.0396s ]
+SQL: SELECT * FROM `wc_users`  [ RunTime:0.0591s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000247s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037581s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037774s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000605s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000718s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000707s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000819s ]
+
+[ 2017-05-18T09:35:25+08:00 ] ::1 /yy/admin.php/Home/Index/cms_edit/cid/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000758s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000897s ]
+SQL: SHOW COLUMNS FROM `wc_users` [ RunTime:0.0497s ]
+SQL: SELECT * FROM `wc_users` WHERE ( id='4' ) LIMIT 1   [ RunTime:0.0406s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000252s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017323s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017516s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000659s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000796s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000751s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000890s ]
+
+[ 2017-05-18T09:35:41+08:00 ] ::1 /yy/admin.php/Home/Index/cms_edit/cid/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000105s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000628s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000968s ]
+SQL: SHOW COLUMNS FROM `wc_users` [ RunTime:0.0388s ]
+SQL: SELECT * FROM `wc_users` WHERE ( id='4' ) LIMIT 1   [ RunTime:0.0482s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000226s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015813s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015961s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000679s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000745s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000856s ]
+
+[ 2017-05-18T09:35:46+08:00 ] ::1 /yy/admin.php/Home/Index/download/cid/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000640s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001743s ]
+SQL: SHOW COLUMNS FROM `wc_users` [ RunTime:0.0488s ]
+SQL: SELECT * FROM `wc_users` WHERE ( id='4' ) LIMIT 1   [ RunTime:0.0401s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 181 行.
+NOTIC: [8] Use of undefined constant companyname - assumed 'companyname' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Use of undefined constant principal - assumed 'principal' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 183 行.
+NOTIC: [8] Use of undefined constant email - assumed 'email' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 184 行.
+NOTIC: [8] Use of undefined constant lytotalrevenue - assumed 'lytotalrevenue' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 185 行.
+NOTIC: [8] Use of undefined constant lyratal - assumed 'lyratal' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 186 行.
+NOTIC: [8] Use of undefined constant tytotalrevenue - assumed 'tytotalrevenue' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 187 行.
+NOTIC: [8] Use of undefined constant tyratal - assumed 'tyratal' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 188 行.
+NOTIC: [8] Use of undefined constant patent - assumed 'patent' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 189 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 181 行.
+NOTIC: [8] Use of undefined constant companyname - assumed 'companyname' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Use of undefined constant principal - assumed 'principal' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 183 行.
+NOTIC: [8] Use of undefined constant email - assumed 'email' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 184 行.
+NOTIC: [8] Use of undefined constant lytotalrevenue - assumed 'lytotalrevenue' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 185 行.
+NOTIC: [8] Use of undefined constant lyratal - assumed 'lyratal' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 186 行.
+NOTIC: [8] Use of undefined constant tytotalrevenue - assumed 'tytotalrevenue' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 187 行.
+NOTIC: [8] Use of undefined constant tyratal - assumed 'tyratal' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 188 行.
+NOTIC: [8] Use of undefined constant patent - assumed 'patent' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 189 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 181 行.
+NOTIC: [8] Use of undefined constant companyname - assumed 'companyname' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Use of undefined constant principal - assumed 'principal' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 183 行.
+NOTIC: [8] Use of undefined constant email - assumed 'email' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 184 行.
+NOTIC: [8] Use of undefined constant lytotalrevenue - assumed 'lytotalrevenue' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 185 行.
+NOTIC: [8] Use of undefined constant lyratal - assumed 'lyratal' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 186 行.
+NOTIC: [8] Use of undefined constant tytotalrevenue - assumed 'tytotalrevenue' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 187 行.
+NOTIC: [8] Use of undefined constant tyratal - assumed 'tyratal' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 188 行.
+NOTIC: [8] Use of undefined constant patent - assumed 'patent' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 189 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 181 行.
+NOTIC: [8] Use of undefined constant companyname - assumed 'companyname' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Use of undefined constant principal - assumed 'principal' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 183 行.
+NOTIC: [8] Use of undefined constant email - assumed 'email' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 184 行.
+NOTIC: [8] Use of undefined constant lytotalrevenue - assumed 'lytotalrevenue' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 185 行.
+NOTIC: [8] Use of undefined constant lyratal - assumed 'lyratal' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 186 行.
+NOTIC: [8] Use of undefined constant tytotalrevenue - assumed 'tytotalrevenue' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 187 行.
+NOTIC: [8] Use of undefined constant tyratal - assumed 'tyratal' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 188 行.
+NOTIC: [8] Use of undefined constant patent - assumed 'patent' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 189 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 181 行.
+NOTIC: [8] Use of undefined constant companyname - assumed 'companyname' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Use of undefined constant principal - assumed 'principal' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 183 行.
+NOTIC: [8] Use of undefined constant email - assumed 'email' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 184 行.
+NOTIC: [8] Use of undefined constant lytotalrevenue - assumed 'lytotalrevenue' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 185 行.
+NOTIC: [8] Use of undefined constant lyratal - assumed 'lyratal' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 186 行.
+NOTIC: [8] Use of undefined constant tytotalrevenue - assumed 'tytotalrevenue' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 187 行.
+NOTIC: [8] Use of undefined constant tyratal - assumed 'tyratal' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 188 行.
+NOTIC: [8] Use of undefined constant patent - assumed 'patent' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 189 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 181 行.
+NOTIC: [8] Use of undefined constant companyname - assumed 'companyname' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Use of undefined constant principal - assumed 'principal' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 183 行.
+NOTIC: [8] Use of undefined constant email - assumed 'email' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 184 行.
+NOTIC: [8] Use of undefined constant lytotalrevenue - assumed 'lytotalrevenue' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 185 行.
+NOTIC: [8] Use of undefined constant lyratal - assumed 'lyratal' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 186 行.
+NOTIC: [8] Use of undefined constant tytotalrevenue - assumed 'tytotalrevenue' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 187 行.
+NOTIC: [8] Use of undefined constant tyratal - assumed 'tyratal' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 188 行.
+NOTIC: [8] Use of undefined constant patent - assumed 'patent' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 189 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 181 行.
+NOTIC: [8] Use of undefined constant companyname - assumed 'companyname' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Use of undefined constant principal - assumed 'principal' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 183 行.
+NOTIC: [8] Use of undefined constant email - assumed 'email' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 184 行.
+NOTIC: [8] Use of undefined constant lytotalrevenue - assumed 'lytotalrevenue' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 185 行.
+NOTIC: [8] Use of undefined constant lyratal - assumed 'lyratal' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 186 行.
+NOTIC: [8] Use of undefined constant tytotalrevenue - assumed 'tytotalrevenue' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 187 行.
+NOTIC: [8] Use of undefined constant tyratal - assumed 'tyratal' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 188 行.
+NOTIC: [8] Use of undefined constant patent - assumed 'patent' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 189 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 181 行.
+NOTIC: [8] Use of undefined constant companyname - assumed 'companyname' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Use of undefined constant principal - assumed 'principal' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 183 行.
+NOTIC: [8] Use of undefined constant email - assumed 'email' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 184 行.
+NOTIC: [8] Use of undefined constant lytotalrevenue - assumed 'lytotalrevenue' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 185 行.
+NOTIC: [8] Use of undefined constant lyratal - assumed 'lyratal' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 186 行.
+NOTIC: [8] Use of undefined constant tytotalrevenue - assumed 'tytotalrevenue' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 187 行.
+NOTIC: [8] Use of undefined constant tyratal - assumed 'tyratal' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 188 行.
+NOTIC: [8] Use of undefined constant patent - assumed 'patent' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 189 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 181 行.
+NOTIC: [8] Use of undefined constant companyname - assumed 'companyname' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Use of undefined constant principal - assumed 'principal' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 183 行.
+NOTIC: [8] Use of undefined constant email - assumed 'email' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 184 行.
+NOTIC: [8] Use of undefined constant lytotalrevenue - assumed 'lytotalrevenue' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 185 行.
+NOTIC: [8] Use of undefined constant lyratal - assumed 'lyratal' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 186 行.
+NOTIC: [8] Use of undefined constant tytotalrevenue - assumed 'tytotalrevenue' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 187 行.
+NOTIC: [8] Use of undefined constant tyratal - assumed 'tyratal' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 188 行.
+NOTIC: [8] Use of undefined constant patent - assumed 'patent' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 189 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 181 行.
+NOTIC: [8] Use of undefined constant companyname - assumed 'companyname' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Use of undefined constant principal - assumed 'principal' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 183 行.
+NOTIC: [8] Use of undefined constant email - assumed 'email' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 184 行.
+NOTIC: [8] Use of undefined constant lytotalrevenue - assumed 'lytotalrevenue' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 185 行.
+NOTIC: [8] Use of undefined constant lyratal - assumed 'lyratal' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 186 行.
+NOTIC: [8] Use of undefined constant tytotalrevenue - assumed 'tytotalrevenue' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 187 行.
+NOTIC: [8] Use of undefined constant tyratal - assumed 'tyratal' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 188 行.
+NOTIC: [8] Use of undefined constant patent - assumed 'patent' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 189 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 181 行.
+NOTIC: [8] Use of undefined constant companyname - assumed 'companyname' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Use of undefined constant principal - assumed 'principal' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 183 行.
+NOTIC: [8] Use of undefined constant email - assumed 'email' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 184 行.
+NOTIC: [8] Use of undefined constant lytotalrevenue - assumed 'lytotalrevenue' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 185 行.
+NOTIC: [8] Use of undefined constant lyratal - assumed 'lyratal' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 186 行.
+NOTIC: [8] Use of undefined constant tytotalrevenue - assumed 'tytotalrevenue' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 187 行.
+NOTIC: [8] Use of undefined constant tyratal - assumed 'tyratal' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 188 行.
+NOTIC: [8] Use of undefined constant patent - assumed 'patent' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 189 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 181 行.
+NOTIC: [8] Use of undefined constant companyname - assumed 'companyname' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Use of undefined constant principal - assumed 'principal' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 183 行.
+NOTIC: [8] Use of undefined constant email - assumed 'email' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 184 行.
+NOTIC: [8] Use of undefined constant lytotalrevenue - assumed 'lytotalrevenue' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 185 行.
+NOTIC: [8] Use of undefined constant lyratal - assumed 'lyratal' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 186 行.
+NOTIC: [8] Use of undefined constant tytotalrevenue - assumed 'tytotalrevenue' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 187 行.
+NOTIC: [8] Use of undefined constant tyratal - assumed 'tyratal' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 188 行.
+NOTIC: [8] Use of undefined constant patent - assumed 'patent' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 189 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 181 行.
+NOTIC: [8] Use of undefined constant companyname - assumed 'companyname' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Use of undefined constant principal - assumed 'principal' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 183 行.
+NOTIC: [8] Use of undefined constant email - assumed 'email' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 184 行.
+NOTIC: [8] Use of undefined constant lytotalrevenue - assumed 'lytotalrevenue' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 185 行.
+NOTIC: [8] Use of undefined constant lyratal - assumed 'lyratal' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 186 行.
+NOTIC: [8] Use of undefined constant tytotalrevenue - assumed 'tytotalrevenue' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 187 行.
+NOTIC: [8] Use of undefined constant tyratal - assumed 'tyratal' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 188 行.
+NOTIC: [8] Use of undefined constant patent - assumed 'patent' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 189 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 181 行.
+NOTIC: [8] Use of undefined constant companyname - assumed 'companyname' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Use of undefined constant principal - assumed 'principal' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 183 行.
+NOTIC: [8] Use of undefined constant email - assumed 'email' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 184 行.
+NOTIC: [8] Use of undefined constant lytotalrevenue - assumed 'lytotalrevenue' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 185 行.
+NOTIC: [8] Use of undefined constant lyratal - assumed 'lyratal' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 186 行.
+NOTIC: [8] Use of undefined constant tytotalrevenue - assumed 'tytotalrevenue' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 187 行.
+NOTIC: [8] Use of undefined constant tyratal - assumed 'tyratal' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 188 行.
+NOTIC: [8] Use of undefined constant patent - assumed 'patent' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 189 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 181 行.
+NOTIC: [8] Use of undefined constant companyname - assumed 'companyname' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Use of undefined constant principal - assumed 'principal' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 183 行.
+NOTIC: [8] Use of undefined constant email - assumed 'email' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 184 行.
+NOTIC: [8] Use of undefined constant lytotalrevenue - assumed 'lytotalrevenue' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 185 行.
+NOTIC: [8] Use of undefined constant lyratal - assumed 'lyratal' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 186 行.
+NOTIC: [8] Use of undefined constant tytotalrevenue - assumed 'tytotalrevenue' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 187 行.
+NOTIC: [8] Use of undefined constant tyratal - assumed 'tyratal' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 188 行.
+NOTIC: [8] Use of undefined constant patent - assumed 'patent' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 189 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 181 行.
+NOTIC: [8] Use of undefined constant companyname - assumed 'companyname' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Use of undefined constant principal - assumed 'principal' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 183 行.
+NOTIC: [8] Use of undefined constant email - assumed 'email' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 184 行.
+NOTIC: [8] Use of undefined constant lytotalrevenue - assumed 'lytotalrevenue' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 185 行.
+NOTIC: [8] Use of undefined constant lyratal - assumed 'lyratal' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 186 行.
+NOTIC: [8] Use of undefined constant tytotalrevenue - assumed 'tytotalrevenue' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 187 行.
+NOTIC: [8] Use of undefined constant tyratal - assumed 'tyratal' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 188 行.
+NOTIC: [8] Use of undefined constant patent - assumed 'patent' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 189 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 181 行.
+NOTIC: [8] Use of undefined constant companyname - assumed 'companyname' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Use of undefined constant principal - assumed 'principal' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 183 行.
+NOTIC: [8] Use of undefined constant email - assumed 'email' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 184 行.
+NOTIC: [8] Use of undefined constant lytotalrevenue - assumed 'lytotalrevenue' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 185 行.
+NOTIC: [8] Use of undefined constant lyratal - assumed 'lyratal' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 186 行.
+NOTIC: [8] Use of undefined constant tytotalrevenue - assumed 'tytotalrevenue' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 187 行.
+NOTIC: [8] Use of undefined constant tyratal - assumed 'tyratal' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 188 行.
+NOTIC: [8] Use of undefined constant patent - assumed 'patent' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 189 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 181 行.
+NOTIC: [8] Use of undefined constant companyname - assumed 'companyname' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Use of undefined constant principal - assumed 'principal' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 183 行.
+NOTIC: [8] Use of undefined constant email - assumed 'email' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 184 行.
+NOTIC: [8] Use of undefined constant lytotalrevenue - assumed 'lytotalrevenue' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 185 行.
+NOTIC: [8] Use of undefined constant lyratal - assumed 'lyratal' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 186 行.
+NOTIC: [8] Use of undefined constant tytotalrevenue - assumed 'tytotalrevenue' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 187 行.
+NOTIC: [8] Use of undefined constant tyratal - assumed 'tyratal' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 188 行.
+NOTIC: [8] Use of undefined constant patent - assumed 'patent' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 189 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 181 行.
+NOTIC: [8] Use of undefined constant companyname - assumed 'companyname' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Use of undefined constant principal - assumed 'principal' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 183 行.
+NOTIC: [8] Use of undefined constant email - assumed 'email' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 184 行.
+NOTIC: [8] Use of undefined constant lytotalrevenue - assumed 'lytotalrevenue' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 185 行.
+NOTIC: [8] Use of undefined constant lyratal - assumed 'lyratal' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 186 行.
+NOTIC: [8] Use of undefined constant tytotalrevenue - assumed 'tytotalrevenue' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 187 行.
+NOTIC: [8] Use of undefined constant tyratal - assumed 'tyratal' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 188 行.
+NOTIC: [8] Use of undefined constant patent - assumed 'patent' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 189 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 181 行.
+NOTIC: [8] Use of undefined constant companyname - assumed 'companyname' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Use of undefined constant principal - assumed 'principal' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 183 行.
+NOTIC: [8] Use of undefined constant email - assumed 'email' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 184 行.
+NOTIC: [8] Use of undefined constant lytotalrevenue - assumed 'lytotalrevenue' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 185 行.
+NOTIC: [8] Use of undefined constant lyratal - assumed 'lyratal' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 186 行.
+NOTIC: [8] Use of undefined constant tytotalrevenue - assumed 'tytotalrevenue' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 187 行.
+NOTIC: [8] Use of undefined constant tyratal - assumed 'tyratal' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 188 行.
+NOTIC: [8] Use of undefined constant patent - assumed 'patent' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 189 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 181 行.
+NOTIC: [8] Use of undefined constant companyname - assumed 'companyname' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Use of undefined constant principal - assumed 'principal' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 183 行.
+NOTIC: [8] Use of undefined constant email - assumed 'email' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 184 行.
+NOTIC: [8] Use of undefined constant lytotalrevenue - assumed 'lytotalrevenue' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 185 行.
+NOTIC: [8] Use of undefined constant lyratal - assumed 'lyratal' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 186 行.
+NOTIC: [8] Use of undefined constant tytotalrevenue - assumed 'tytotalrevenue' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 187 行.
+NOTIC: [8] Use of undefined constant tyratal - assumed 'tyratal' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 188 行.
+NOTIC: [8] Use of undefined constant patent - assumed 'patent' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 189 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 181 行.
+NOTIC: [8] Use of undefined constant companyname - assumed 'companyname' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Use of undefined constant principal - assumed 'principal' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 183 行.
+NOTIC: [8] Use of undefined constant email - assumed 'email' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 184 行.
+NOTIC: [8] Use of undefined constant lytotalrevenue - assumed 'lytotalrevenue' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 185 行.
+NOTIC: [8] Use of undefined constant lyratal - assumed 'lyratal' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 186 行.
+NOTIC: [8] Use of undefined constant tytotalrevenue - assumed 'tytotalrevenue' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 187 行.
+NOTIC: [8] Use of undefined constant tyratal - assumed 'tyratal' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 188 行.
+NOTIC: [8] Use of undefined constant patent - assumed 'patent' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 189 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 181 行.
+NOTIC: [8] Use of undefined constant companyname - assumed 'companyname' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Use of undefined constant principal - assumed 'principal' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 183 行.
+NOTIC: [8] Use of undefined constant email - assumed 'email' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 184 行.
+NOTIC: [8] Use of undefined constant lytotalrevenue - assumed 'lytotalrevenue' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 185 行.
+NOTIC: [8] Use of undefined constant lyratal - assumed 'lyratal' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 186 行.
+NOTIC: [8] Use of undefined constant tytotalrevenue - assumed 'tytotalrevenue' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 187 行.
+NOTIC: [8] Use of undefined constant tyratal - assumed 'tyratal' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 188 行.
+NOTIC: [8] Use of undefined constant patent - assumed 'patent' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 189 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 181 行.
+NOTIC: [8] Use of undefined constant companyname - assumed 'companyname' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Use of undefined constant principal - assumed 'principal' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 183 行.
+NOTIC: [8] Use of undefined constant email - assumed 'email' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 184 行.
+NOTIC: [8] Use of undefined constant lytotalrevenue - assumed 'lytotalrevenue' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 185 行.
+NOTIC: [8] Use of undefined constant lyratal - assumed 'lyratal' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 186 行.
+NOTIC: [8] Use of undefined constant tytotalrevenue - assumed 'tytotalrevenue' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 187 行.
+NOTIC: [8] Use of undefined constant tyratal - assumed 'tyratal' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 188 行.
+NOTIC: [8] Use of undefined constant patent - assumed 'patent' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 189 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 181 行.
+NOTIC: [8] Use of undefined constant companyname - assumed 'companyname' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Use of undefined constant principal - assumed 'principal' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 183 行.
+NOTIC: [8] Use of undefined constant email - assumed 'email' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 184 行.
+NOTIC: [8] Use of undefined constant lytotalrevenue - assumed 'lytotalrevenue' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 185 行.
+NOTIC: [8] Use of undefined constant lyratal - assumed 'lyratal' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 186 行.
+NOTIC: [8] Use of undefined constant tytotalrevenue - assumed 'tytotalrevenue' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 187 行.
+NOTIC: [8] Use of undefined constant tyratal - assumed 'tyratal' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 188 行.
+NOTIC: [8] Use of undefined constant patent - assumed 'patent' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 189 行.
+NOTIC: [8] iconv() [<a href='function.iconv'>function.iconv</a>]: Detected an incomplete multibyte character in input string D:\Program Files\wamp\www\yy\ThinkPHP\Library\Org\Util\PHPExcel\Shared\String.php 第 386 行.
+NOTIC: [8] iconv() [<a href='function.iconv'>function.iconv</a>]: Detected an incomplete multibyte character in input string D:\Program Files\wamp\www\yy\ThinkPHP\Library\Org\Util\PHPExcel\Shared\String.php 第 386 行.
+NOTIC: [8] iconv() [<a href='function.iconv'>function.iconv</a>]: Detected an incomplete multibyte character in input string D:\Program Files\wamp\www\yy\ThinkPHP\Library\Org\Util\PHPExcel\Shared\String.php 第 386 行.
+NOTIC: [8] iconv() [<a href='function.iconv'>function.iconv</a>]: Detected an incomplete multibyte character in input string D:\Program Files\wamp\www\yy\ThinkPHP\Library\Org\Util\PHPExcel\Shared\String.php 第 386 行.
+NOTIC: [8] iconv() [<a href='function.iconv'>function.iconv</a>]: Detected an incomplete multibyte character in input string D:\Program Files\wamp\www\yy\ThinkPHP\Library\Org\Util\PHPExcel\Shared\String.php 第 386 行.
+NOTIC: [8] iconv() [<a href='function.iconv'>function.iconv</a>]: Detected an incomplete multibyte character in input string D:\Program Files\wamp\www\yy\ThinkPHP\Library\Org\Util\PHPExcel\Shared\String.php 第 386 行.
+NOTIC: [8] iconv() [<a href='function.iconv'>function.iconv</a>]: Detected an incomplete multibyte character in input string D:\Program Files\wamp\www\yy\ThinkPHP\Library\Org\Util\PHPExcel\Shared\String.php 第 386 行.
+NOTIC: [8] iconv() [<a href='function.iconv'>function.iconv</a>]: Detected an incomplete multibyte character in input string D:\Program Files\wamp\www\yy\ThinkPHP\Library\Org\Util\PHPExcel\Shared\String.php 第 386 行.
+NOTIC: [8] iconv() [<a href='function.iconv'>function.iconv</a>]: Detected an incomplete multibyte character in input string D:\Program Files\wamp\www\yy\ThinkPHP\Library\Org\Util\PHPExcel\Shared\String.php 第 386 行.
+NOTIC: [8] iconv() [<a href='function.iconv'>function.iconv</a>]: Detected an incomplete multibyte character in input string D:\Program Files\wamp\www\yy\ThinkPHP\Library\Org\Util\PHPExcel\Shared\String.php 第 386 行.
+NOTIC: [8] iconv() [<a href='function.iconv'>function.iconv</a>]: Detected an incomplete multibyte character in input string D:\Program Files\wamp\www\yy\ThinkPHP\Library\Org\Util\PHPExcel\Shared\String.php 第 386 行.
+NOTIC: [8] iconv() [<a href='function.iconv'>function.iconv</a>]: Detected an incomplete multibyte character in input string D:\Program Files\wamp\www\yy\ThinkPHP\Library\Org\Util\PHPExcel\Shared\String.php 第 386 行.
+NOTIC: [8] iconv() [<a href='function.iconv'>function.iconv</a>]: Detected an incomplete multibyte character in input string D:\Program Files\wamp\www\yy\ThinkPHP\Library\Org\Util\PHPExcel\Shared\String.php 第 386 行.
+NOTIC: [8] iconv() [<a href='function.iconv'>function.iconv</a>]: Detected an incomplete multibyte character in input string D:\Program Files\wamp\www\yy\ThinkPHP\Library\Org\Util\PHPExcel\Shared\String.php 第 386 行.
+NOTIC: [8] iconv() [<a href='function.iconv'>function.iconv</a>]: Detected an incomplete multibyte character in input string D:\Program Files\wamp\www\yy\ThinkPHP\Library\Org\Util\PHPExcel\Shared\String.php 第 386 行.
+NOTIC: [8] iconv() [<a href='function.iconv'>function.iconv</a>]: Detected an incomplete multibyte character in input string D:\Program Files\wamp\www\yy\ThinkPHP\Library\Org\Util\PHPExcel\Shared\String.php 第 386 行.
+NOTIC: [8] iconv() [<a href='function.iconv'>function.iconv</a>]: Detected an incomplete multibyte character in input string D:\Program Files\wamp\www\yy\ThinkPHP\Library\Org\Util\PHPExcel\Shared\String.php 第 386 行.
+NOTIC: [8] iconv() [<a href='function.iconv'>function.iconv</a>]: Detected an incomplete multibyte character in input string D:\Program Files\wamp\www\yy\ThinkPHP\Library\Org\Util\PHPExcel\Shared\String.php 第 386 行.
+NOTIC: [8] iconv() [<a href='function.iconv'>function.iconv</a>]: Detected an incomplete multibyte character in input string D:\Program Files\wamp\www\yy\ThinkPHP\Library\Org\Util\PHPExcel\Shared\String.php 第 386 行.
+NOTIC: [8] iconv() [<a href='function.iconv'>function.iconv</a>]: Detected an incomplete multibyte character in input string D:\Program Files\wamp\www\yy\ThinkPHP\Library\Org\Util\PHPExcel\Shared\String.php 第 386 行.
+NOTIC: [8] iconv() [<a href='function.iconv'>function.iconv</a>]: Detected an incomplete multibyte character in input string D:\Program Files\wamp\www\yy\ThinkPHP\Library\Org\Util\PHPExcel\Shared\String.php 第 386 行.
+NOTIC: [8] iconv() [<a href='function.iconv'>function.iconv</a>]: Detected an incomplete multibyte character in input string D:\Program Files\wamp\www\yy\ThinkPHP\Library\Org\Util\PHPExcel\Shared\String.php 第 386 行.
+NOTIC: [8] iconv() [<a href='function.iconv'>function.iconv</a>]: Detected an incomplete multibyte character in input string D:\Program Files\wamp\www\yy\ThinkPHP\Library\Org\Util\PHPExcel\Shared\String.php 第 386 行.
+NOTIC: [8] iconv() [<a href='function.iconv'>function.iconv</a>]: Detected an incomplete multibyte character in input string D:\Program Files\wamp\www\yy\ThinkPHP\Library\Org\Util\PHPExcel\Shared\String.php 第 386 行.
+NOTIC: [8] iconv() [<a href='function.iconv'>function.iconv</a>]: Detected an incomplete multibyte character in input string D:\Program Files\wamp\www\yy\ThinkPHP\Library\Org\Util\PHPExcel\Shared\String.php 第 386 行.
+NOTIC: [8] iconv() [<a href='function.iconv'>function.iconv</a>]: Detected an incomplete multibyte character in input string D:\Program Files\wamp\www\yy\ThinkPHP\Library\Org\Util\PHPExcel\Shared\String.php 第 386 行.
+NOTIC: [8] iconv() [<a href='function.iconv'>function.iconv</a>]: Detected an incomplete multibyte character in input string D:\Program Files\wamp\www\yy\ThinkPHP\Library\Org\Util\PHPExcel\Shared\String.php 第 386 行.
+
+[ 2017-05-18T09:37:35+08:00 ] ::1 /yy/admin.php/Home/Index/cms_edit/cid/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000816s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001118s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001309s ]
+SQL: SHOW COLUMNS FROM `wc_users` [ RunTime:0.0399s ]
+SQL: SELECT * FROM `wc_users` WHERE ( id='4' ) LIMIT 1   [ RunTime:0.0501s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000155s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000352s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019301s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019526s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000829s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000991s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001345s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001533s ]
+
+[ 2017-05-18T09:37:37+08:00 ] ::1 /yy/admin.php/Home/Index/download/cid/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000933s ]
+SQL: SHOW COLUMNS FROM `wc_users` [ RunTime:0.0396s ]
+SQL: SELECT * FROM `wc_users` WHERE ( id='4' )  [ RunTime:0.0307s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 181 行.
+NOTIC: [8] Use of undefined constant companyname - assumed 'companyname' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Use of undefined constant principal - assumed 'principal' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 183 行.
+NOTIC: [8] Use of undefined constant email - assumed 'email' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 184 行.
+NOTIC: [8] Use of undefined constant lytotalrevenue - assumed 'lytotalrevenue' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 185 行.
+NOTIC: [8] Use of undefined constant lyratal - assumed 'lyratal' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 186 行.
+NOTIC: [8] Use of undefined constant tytotalrevenue - assumed 'tytotalrevenue' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 187 行.
+NOTIC: [8] Use of undefined constant tyratal - assumed 'tyratal' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 188 行.
+NOTIC: [8] Use of undefined constant patent - assumed 'patent' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 189 行.
+
+[ 2017-05-18T09:46:43+08:00 ] ::1 /yy/admin.php/Home/Index/cms_edit/cid/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000969s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001116s ]
+SQL: SHOW COLUMNS FROM `wc_users` [ RunTime:0.0400s ]
+SQL: SELECT * FROM `wc_users` WHERE ( id='4' ) LIMIT 1   [ RunTime:0.0394s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000233s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015408s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015561s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000639s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000767s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000876s ]
+
+[ 2017-05-18T09:46:45+08:00 ] ::1 /yy/admin.php/Home/Index/download/cid/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001023s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001009s ]
+SQL: SHOW COLUMNS FROM `wc_users` [ RunTime:0.0506s ]
+SQL: SELECT * FROM `wc_users` WHERE ( id='4' )  [ RunTime:0.0492s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 181 行.
+NOTIC: [8] Use of undefined constant companyname - assumed 'companyname' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 182 行.
+NOTIC: [8] Use of undefined constant principal - assumed 'principal' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 183 行.
+NOTIC: [8] Use of undefined constant email - assumed 'email' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 184 行.
+NOTIC: [8] Use of undefined constant lytotalrevenue - assumed 'lytotalrevenue' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 185 行.
+NOTIC: [8] Use of undefined constant lyratal - assumed 'lyratal' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 186 行.
+NOTIC: [8] Use of undefined constant tytotalrevenue - assumed 'tytotalrevenue' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 187 行.
+NOTIC: [8] Use of undefined constant tyratal - assumed 'tyratal' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 188 行.
+NOTIC: [8] Use of undefined constant patent - assumed 'patent' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 189 行.
+NOTIC: [8] Use of undefined constant invent - assumed 'invent' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 190 行.
+NOTIC: [8] Use of undefined constant utilitymodel - assumed 'utilitymodel' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 191 行.
+NOTIC: [8] Use of undefined constant appearance - assumed 'appearance' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 192 行.
+NOTIC: [8] Use of undefined constant soft - assumed 'soft' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 193 行.
+NOTIC: [8] Use of undefined constant employee - assumed 'employee' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 194 行.
+NOTIC: [8] Use of undefined constant paysocial - assumed 'paysocial' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 195 行.
+NOTIC: [8] Use of undefined constant science - assumed 'science' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 196 行.
+NOTIC: [8] Use of undefined constant awardget - assumed 'awardget' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 197 行.
+NOTIC: [8] Use of undefined constant nowtotalrevenue - assumed 'nowtotalrevenue' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 198 行.
+NOTIC: [8] Use of undefined constant nowratal - assumed 'nowratal' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 199 行.
+NOTIC: [8] Use of undefined constant typatent - assumed 'typatent' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 200 行.
+NOTIC: [8] Use of undefined constant tyemployee - assumed 'tyemployee' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 201 行.
+NOTIC: [8] Use of undefined constant tysocial - assumed 'tysocial' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 202 行.
+NOTIC: [8] Use of undefined constant tyaward - assumed 'tyaward' D:\Program Files\wamp\www\yy\admin\Home\Controller\IndexController.class.php 第 203 行.
+
+[ 2017-05-18T10:00:34+08:00 ] ::1 /yy/admin.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000644s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000820s ]
+SQL: SHOW COLUMNS FROM `wc_users` [ RunTime:0.0499s ]
+SQL: SELECT * FROM `wc_users`  [ RunTime:0.0694s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000233s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033047s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033205s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000596s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000637s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000772s ]
+
+[ 2017-05-18T10:01:33+08:00 ] ::1 /yy/admin.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000934s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000864s ]
+SQL: SHOW COLUMNS FROM `wc_users` [ RunTime:0.0400s ]
+SQL: SELECT * FROM `wc_users`  [ RunTime:0.0593s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000264s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018178s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018357s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000576s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000545s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000656s ]
+
+[ 2017-05-18T10:02:04+08:00 ] ::1 /yy/admin.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000731s ]
+SQL: SHOW COLUMNS FROM `wc_users` [ RunTime:0.0398s ]
+SQL: SELECT * FROM `wc_users`  [ RunTime:0.0547s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000229s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024595s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024811s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000766s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000828s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001051s ]
+
+[ 2017-05-18T10:02:39+08:00 ] ::1 /yy/admin.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000994s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001141s ]
+SQL: SHOW COLUMNS FROM `wc_users` [ RunTime:0.0410s ]
+SQL: SELECT * FROM `wc_users`  [ RunTime:0.0743s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000266s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018332s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018518s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000693s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000724s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000847s ]
+
+[ 2017-05-18T10:04:38+08:00 ] ::1 /yy/admin.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000675s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003177s ]
+SQL: SHOW COLUMNS FROM `wc_users` [ RunTime:0.0394s ]
+SQL: SELECT * FROM `wc_users`  [ RunTime:0.0691s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000156s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000411s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022674s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022896s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000624s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000846s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001070s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001304s ]
+
+[ 2017-05-18T10:05:02+08:00 ] ::1 /yy/admin.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000906s ]
+SQL: SHOW COLUMNS FROM `wc_users` [ RunTime:0.0412s ]
+SQL: SELECT * FROM `wc_users`  [ RunTime:0.0784s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000267s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024566s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024793s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000605s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000733s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000862s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001056s ]
+
+[ 2017-05-18T10:06:07+08:00 ] ::1 /yy/admin.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000605s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000705s ]
+SQL: SHOW COLUMNS FROM `wc_users` [ RunTime:0.0391s ]
+SQL: SELECT * FROM `wc_users`  [ RunTime:0.0639s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000155s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000393s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019871s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020124s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000543s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000726s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001220s ]
+
+[ 2017-05-18T10:06:35+08:00 ] ::1 /yy/admin.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000924s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+SQL: SHOW COLUMNS FROM `wc_users` [ RunTime:0.0399s ]
+SQL: SELECT * FROM `wc_users`  [ RunTime:0.0594s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000224s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019904s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020161s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000677s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000799s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000773s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000885s ]
+
+[ 2017-05-18T10:06:43+08:00 ] ::1 /yy/admin.php/Home/Index/cms_edit/cid/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000951s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001093s ]
+SQL: SHOW COLUMNS FROM `wc_users` [ RunTime:0.0403s ]
+SQL: SELECT * FROM `wc_users` WHERE ( id='4' ) LIMIT 1   [ RunTime:0.0400s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000226s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015400s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015580s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000646s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000760s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000788s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000912s ]
+

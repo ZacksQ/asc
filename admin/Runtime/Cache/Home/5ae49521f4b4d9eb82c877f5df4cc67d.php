@@ -66,7 +66,7 @@
     </div>
   </div>
   <div class="am-cf am-padding">
-    <form class="search" method="post" action="<?php echo U('cms_search');?>">
+    <form class="search" method="post" id="searchform" action="<?php echo U('cms_search');?>">
       <div class="am-fl am-cf">
         上一年度总收入：<input type="text" name="lyratal">
         截止目前今年总收入：<input type="text" name="tytotalrevenue">
@@ -87,7 +87,9 @@
             <th>公司名称</th>
             <th>负责人</th>
             <th>电子邮箱</th>      
-            <th width="100px">管理</th>
+            <th>上一年度总收入</th>      
+            <th>截止目前今年总收入</th>      
+            <th>管理</th>
           </tr>
         </thead>
         <tbody>
@@ -97,22 +99,25 @@
             <td><?php echo ($vo["companyname"]); ?></td>
             <td><?php echo ($vo["principal"]); ?></td>
             <td><?php echo ($vo["email"]); ?></td>
-          
+            <td><?php echo ($vo["lytotalrevenue"]); ?></td>
+            <td><?php echo ($vo["tytotalrevenue"]); ?></td>          
             <td>
-              <div class="am-dropdown" data-am-dropdown>
+              <a href="<?php echo U('Index/cms_edit?cid='.$vo['id']);?>" >申报数据</a>
+              <a href="<?php echo U('Index/cms_delete?id='.$vo['id']);?>">删除</a>
+              <!-- <div class="am-dropdown" data-am-dropdown>
                 <button class="am-btn am-btn-default am-btn-xs am-dropdown-toggle" data-am-dropdown-toggle>
                   <span class="am-icon-cog"></span>
                   <span class="am-icon-caret-down"></span>
                 </button>
                 <ul class="am-dropdown-content">
                   <li>
-                    <a href="<?php echo U('Index/cms_edit?cid='.$vo['id']);?>">查看信息</a>
+                    <a href="<?php echo U('Index/cms_edit?cid='.$vo['id']);?>">申报数据</a>
                   </li>
                   <li>
                    <a href="<?php echo U('Index/cms_delete?id='.$vo['id']);?>">删除</a>
                  </li>
                 </ul>
-              </div>
+              </div> -->
             </td>
           </tr><?php endforeach; endif; else: echo "" ;endif; ?>
         </tbody>

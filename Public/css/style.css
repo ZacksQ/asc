@@ -32,8 +32,8 @@ img{ max-width: 100%;}
 .btn{ line-height: 3.8rem; color: #fff; font-size: 1.6rem; border-radius: 2px;}
 .txt-block,.btn-block{ width: 100%;}
 .txt-login{ text-indent: 1.6rem;}
-.btn-login,.btn-register{ background-color: #ff7e00; font-size: 1.8rem;}
-.btn-register{ margin-top: 15px;}
+.btn-login,.btn-register,.btn-reset{ background-color: #ff7e00; font-size: 1.8rem;}
+.btn-register,.btn-reset{ margin-top: 15px;}
 .clear{ clear: both}
 a.botfun{ font-size: 1.4rem; display: inline-block; color: #595959}
 

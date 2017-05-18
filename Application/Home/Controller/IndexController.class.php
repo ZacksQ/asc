@@ -24,11 +24,51 @@ class IndexController extends Controller {
         echo json_encode($result);
     }
 
+    public function fpwdcheckuser(){
+        $user = M('users');
+        $checkuser = $user->where("username = '".I("post.reusername")."' and email = '".I("post.remail")."'")->find();
+        if($checkuser){
+            $result = array(
+                "success" => true,
+                "msg" => "请求成功"
+            );
+        }else{
+            $result = array(
+                "success" => false,
+                "msg" => "输入的用户名和邮箱不对应或不存在"
+            );
+        }
+        echo json_encode($result);
+    }
+
+    public function resetpassword(){
+        $user = M('users');
+        $data["password"] = sha1(I("post.password"));
+        $reset = $user->where("username = '".I("post.username")."' and email = '".I("post.email")."'")->save($data);
+        // echo $user->getLastSql(); exit();
+        if($reset){
+            $result = array(
+                "success" => true,
+                "msg" => "重置成功，请等待跳转..."
+            );
+        }else{
+            $result = array(
+                "success" => false,
+                "msg" => "重置失败，请稍后再试，或联系管理员"
+            );
+        }
+        echo json_encode($result);
+    }
+
     public function login(){  
         if(session("userid")){
             $this->redirect("Index/showdata");
         }  	
         $this->display();
+    }
+
+    public function logout(){  
+        session("userid",null);           
     }
 
     public function showdata(){

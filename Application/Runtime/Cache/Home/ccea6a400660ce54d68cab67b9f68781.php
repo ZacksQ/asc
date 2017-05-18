@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title></title>
+	<title>爱双创-用户登录</title>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	<link rel="stylesheet" href="/yy/Public/css/style.css">
@@ -22,7 +22,7 @@
 			<div class="form-item">
 				<button class="btn btn-block btn-login">登 录</button>
 			</div>
-			<!-- <a href="" class="fl botfun">忘记密码？</a> -->
+			<a href="<?php echo U('resetpwd');?>" class="fl botfun">忘记密码？</a>
 			<a href="<?php echo U('register');?>" class="fr botfun">注册账号</a>
 			<div class="clear"></div>
 		</div>
@@ -53,7 +53,7 @@
 					success: function(d){
 						if(d.success==true){
 							layer.msg(d.msg, function(){
-								// window.location.href="<?php echo U('login');?>";
+								window.location.href="<?php echo U('showdata');?>";
 							});
 						}else{
 							layer.msg(d.msg);

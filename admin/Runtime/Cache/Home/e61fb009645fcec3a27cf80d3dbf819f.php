@@ -64,11 +64,11 @@
       /
       <small><?php echo ($title); ?></small>
     </div>
+    <a href="<?php echo U('download',array('cid'=>$_GET['cid']));?>" target="_new" class="am-fr am-btn am-btn-primary am-btn-xs search-btn" id="downexcel">导出数据</a>
   </div>
 
   <div class="am-g">
-    <div class="am-u-sm-12">
-      
+    <div class="am-u-sm-12">      
         <div class="am-g am-margin-top">
           <div class="am-u-sm-4 am-u-md-5 am-text-right">企业名称：</div>
           <div class="am-u-sm-8 am-u-md-7">
@@ -208,5 +208,19 @@
 <script src="/yy/Public/js/amazeui.min.js"></script>
 <!--<![endif]-->
 <script src="/yy/Public/js/app.js"></script>
+<script>
+    // $(function(){
+    //   $(".search-btn").click(function(){
+    //     var formdatarr = $(".search").serializeArray();
+    //     var postdata = {};
+    //     $.each(formdatarr, function(i,f){
+    //       postdata[f.name] = f.value;
+    //     });
+    //     $.ajax({
+          
+    //     });
+    //   });
+    // });
+  </script>
 </body>
 </html>

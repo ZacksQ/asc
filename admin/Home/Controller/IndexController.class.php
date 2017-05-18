@@ -2,6 +2,7 @@
 namespace Home\Controller;
 use Think\Controller;
 class IndexController extends Controller {
+	public $infolist;
     public function index(){
     	$this->isLogin();
     	$infolist=M('users')->select();
@@ -46,36 +47,6 @@ class IndexController extends Controller {
 		$this->success('数据删除成功！',U('Index/message'));
     }
 
-    public function customer(){
-    	$this->isLogin();
-    	$infolist=M('users')->order('id desc')->select();
-    	$this->assign('infolist',$infolist);
-        $this->display();
-    }
-
-    public function customer_delete(){
-    	$this->isLogin();
-		$Cms = M("users");
-		$Cms->where("id='{$_GET['id']}'")->delete();
-		$this->success('数据删除成功！',U('Index/customer'));
-    }
-    public function customer_edit(){
-    	$this->isLogin();
-		$Cms = M("users");
-		$data['isblack']=1;
-		$Cms->where("id='{$_GET['cid']}'")->save($data);
-		$this->success('用户拉黑成功！',U('Index/customer'));
-    }
-    public function msg_pass(){
-    	$this->isLogin();
-		$Cms = M("message");
-		$data['isshow']=1;
-		$Cms->where("id='{$_GET['cid']}'")->save($data);
-		$auditingid['msgid']=$_GET['cid'];
-		$result=M('auditing')->add($auditingid);
-		$this->success('数据审核通过！',U('Index/message'));
-    }    
-    
 	public function cms_add(){
 		$this->isLogin();
 		if(IS_POST){
@@ -91,60 +62,10 @@ class IndexController extends Controller {
 		}
 	}
 
-	public function lot_add(){
-		$this->isLogin();
-		if(IS_POST){
-			$cms=M('award');
-			$data=$_POST;
-			if($cms->add($data))
-				$this->success('数据添加成功！',U('Index/lottery'));
-		}else{
-			$this->display();
-		}
-	}
-
-	public function num_add(){
-		$this->isLogin();
-		if(IS_POST){
-			$cms=M('awardnum');
-			$data=$_POST;
-			if($cms->add($data))
-				$this->success('数据添加成功！',U('Index/num'));
-		}else{
-			$this->display();
-		}
-	}
-
-	public function filter(){
-		$this->isLogin();
-		$infolist=M('filter')->order('id desc')->select();
-    	$this->assign('infolist',$infolist);
-        $this->display();
-	}
-
-	public function filter_add(){
-		$this->isLogin();
-		if(IS_POST){
-			$cms=M('filter');
-			$data=$_POST;			
-			if($cms->add($data))
-				$this->success('数据添加成功！',U('Index/filter'));
-		}else{
-			$this->display();
-		}
-	}
-
-	public function filter_delete(){
-    	$this->isLogin();
-		$Cms = M("filter");
-		$Cms->where("id='{$_GET['id']}'")->delete();
-		$this->success('数据删除成功！',U('Index/filter'));
-    }
 	public function cms_edit(){
 		$this->isLogin();
 		$Cms = M("users");
 		$data = $Cms->where("id='{$_GET['cid']}'")->find();
-		$data['content'] = stripslashes($data['content']);
 		$this->assign('title',"企业信息");
 		$this->assign('vo',$data);
 		$this->display("cms_add");
@@ -162,81 +83,24 @@ class IndexController extends Controller {
 			
 			$infolist = $Cms->where($condition)->select();
 			// echo $Cms->getLastSql();
-			$this->assign('infolist',$infolist);
+			// if($action == 'export'){
+	        	// if(!$infolist){
+	        	//     $this->error('没有搜索结果，无法导出数据');
+	        	// }
+	        	// $this->goods_export($infolist);
+	        // }
 		}		
-
+		$this->assign('infolist',$infolist);
 		$this->display("index");
 	}
-public function lot_edit(){
-		$this->isLogin();
-		if (IS_POST){
-			$data = $_POST;
-			
-	    	$Cms = M("award");
-	    	// $data['cate_id'] = $_GET['cid'];
-	    	if($Cms->where("id = '{$_GET['cid']}'")->save($data)){
-	    		$this->success('数据更新成功！',U('Index/lottery'));
-	    	}else{
-	    		$this->error('数据更新失败！',U('Index/lottery'));
-	    	}
-		}else{
-			$Cms = M("award");
-			$data = $Cms->where("id='{$_GET['cid']}'")->find();
-			
-	
-			$this->assign('vo',$data);
-			$this->display("lot_add");
-		}
-	}
 
-	public function num_edit(){
-		$this->isLogin();
-		if (IS_POST){
-			$data = $_POST;
-			
-	    	$Cms = M("awardnum");
-	    	// $data['cate_id'] = $_GET['cid'];
-	    	if($Cms->where("id = '{$_GET['cid']}'")->save($data)){
-	    		$this->success('数据更新成功！',U('Index/num'));
-	    	}else{
-	    		$this->error('数据更新失败！',U('Index/num'));
-	    	}
-		}else{
-			$Cms = M("awardnum");
-			$data = $Cms->where("id='{$_GET['cid']}'")->find();
-			
-	
-			$this->assign('vo',$data);
-			$this->display("num_add");
-		}
-	}
-
-	public function setting(){
-		$this->isLogin();
-		$setting=M('setting');
-		if(IS_POST){
-			$data = $_POST;
-			if(!isset($data['auditing']))
-				$data['auditing']=0;
-			else
-				$data['auditing']=1;
-			$info= $this->uploadImg();
-			if($info['codepic']['savename'])
-				$data['codepic'] =__ROOT__.'/public/'.$info['codepic']['savepath'].$info['codepic']['savename'];
-			if($info['logo']['savename'])
-				$data['logo'] =__ROOT__.'/public/'.$info['logo']['savepath'].$info['logo']['savename'];
-		
-			if($setting->where('id=1')->save($data)){
-				$this->success('数据更新成功！',U('Index/setting'));
-			}else{
-				$this->error('数据更新失败！',U('Index/setting'));
-			}
-		}else{			
-			$data=$setting->where('id=1')->find();
-			$this->assign("data",$data);
-			$this->display();
-		}
-		
+	public function download(){
+		$Cms = M("users");
+		$data = $Cms->where("id='{$_GET['cid']}'")->select();
+    	if(!$data){
+    	    $this->error('没有搜索结果，无法导出数据');
+    	}
+    	$this->goods_export($data);
 	}
 
 
@@ -247,18 +111,6 @@ public function lot_edit(){
 		$this->success('数据删除成功！',U('Index/index'));
 	}
 
-	public function lot_delete(){
-		$this->isLogin();
-		$Cms = M("award");
-		$Cms->where("id='{$_GET['id']}'")->delete();
-		$this->success('数据删除成功！',U('Index/lottery'));
-	}
-	public function num_delete(){
-		$this->isLogin();
-		$Cms = M("awardnum");
-		$Cms->where("id='{$_GET['id']}'")->delete();
-		$this->success('数据删除成功！',U('Index/num'));
-	}
 	private function isLogin(){
 		if(!$_SESSION['name']){
 			$this->redirect('Index/login');
@@ -278,8 +130,7 @@ public function lot_edit(){
 			if($Admin->where("username = '{$_POST['title']}'")->find()){
 				$this->error('该用户名已存在，请重新输入！');
 			}
-			if($_POST['password'] == $_POST['repass']){
-				
+			if($_POST['password'] == $_POST['repass']){				
 				$data = array("username"=>$_POST['title'],'password'=>sha1($_POST['password']));
 				$Admin->add($data);
 				$this->success('新增用户成功！');
@@ -320,80 +171,189 @@ public function lot_edit(){
 	
 	}
 
-	public function test(){
-		if(IS_POST){
-		$info=$this->uploadImg();
-			print_r($info['pic']);
-			//echo $this->uploadImg();
-		}
+	protected function goods_export($infolist=array())
+    {
+        // print_r($infolist);exit;
+        $infolist = $infolist;
+        $data = array();
+        foreach ($infolist as $k=>$info_info){
+        	// echo $info_info['id'];exit;
+            $data[$k][id] = $info_info['id'];
+            $data[$k][companyname] = $info_info['companyname'];
+            $data[$k][principal] = $info_info['principal'];
+            $data[$k][email] = $info_info['email'];
+            $data[$k][lytotalrevenue]  = $info_info['lytotalrevenue'];
+            $data[$k][lyratal]  = $info_info['lyratal'];
+            $data[$k][tytotalrevenue]  = $info_info['tytotalrevenue'];
+            $data[$k][tyratal] = $info_info['tyratal'];
+            $data[$k][patent] = $info_info['patent'];
+            $data[$k][invent] = $info_info['invent'];
+            $data[$k][utilitymodel] = $info_info['utilitymodel'];
+            $data[$k][appearance] = $info_info['appearance'];
+            $data[$k][soft] = $info_info['soft'];
+            $data[$k][employee] = $info_info['employee'];
+            $data[$k][paysocial] = $info_info['paysocial'];
+            $data[$k][science] = $info_info['science'];
+            $data[$k][awardget] = $info_info['awardget'];
+            $data[$k][nowtotalrevenue] = $info_info['nowtotalrevenue'];
+            $data[$k][nowratal] = $info_info['nowratal'];
+            $data[$k][typatent] = $info_info['typatent'];
+            $data[$k][tyemployee] = $info_info['tyemployee'];
+            $data[$k][tysocial] = $info_info['tysocial'];
+            $data[$k][tyaward] = $info_info['tyaward'];
+        }
 
-		$this->display();
-	}
+        // print_r($infolist);
+        // print_r($data);exit;
 
-	public function navsetting(){
-		$this->isLogin();
-		if(IS_POST){
-			$data = $_POST;
-			if(!isset($data['nav1']))
-				$nav1['isshow']=0;
-			else
-				$nav1['isshow']=1;
-			if(!isset($data['nav2']))
-				$nav2['isshow']=0;
-			else
-				$nav2['isshow']=1;
-			if(!isset($data['nav3']))
-				$nav3['isshow']=0;
-			else
-				$nav3['isshow']=1;
-			if(!isset($data['nav4']))
-				$nav4['isshow']=0;
-			else
-				$nav4['isshow']=1;
-			if(!isset($data['nav5']))
-				$nav5['isshow']=0;
-			else
-				$nav5['isshow']=1;
-			if(!isset($data['nav6']))
-				$nav6['isshow']=0;
-			else
-				$nav6['isshow']=1;
-			if(!isset($data['nav7']))
-				$nav7['isshow']=0;
-			else
-				$nav7['isshow']=1;
-			if(!isset($data['nav8']))
-				$nav8['isshow']=0;
-			else
-				$nav8['isshow']=1;
-			$upn1=M('nav')->where('id=1')->save($nav1);
-			$upn1=M('nav')->where('id=2')->save($nav2);
-			$upn1=M('nav')->where('id=3')->save($nav3);
-			$upn1=M('nav')->where('id=4')->save($nav4);
-			$upn1=M('nav')->where('id=5')->save($nav5);
-			$upn1=M('nav')->where('id=6')->save($nav6);
-			$upn1=M('nav')->where('id=7')->save($nav7);
-			$upn1=M('nav')->where('id=8')->save($nav8);
-		}
-		$result=M('nav')->select();
-		$this->assign('navlist',$result);
-		$this->display();
-	}
+        foreach ($data as $field=>$v){
+            if($field == 'id'){
+                $headArr[]='产品id';
+            }
 
-	public function init(){
-		$this->isLogin();
-		if(IS_POST){
-			$result1=M('message')->where('id>0')->delete();
-			$result2=M('shakeact')->where('id>0')->delete();
-			$result3=M('shakecount')->where('id>0')->delete();
-			$result4=M('users')->where('id>0')->delete();
-			if($result1&&$result2&&$result3&&$result4){
-				$this->success('数据清空成功！',U('Index/init'));
-			}else{
-				$this->error('数据清空失败！',U('Index/init'));
-			}
-		}else{
-			$this->display();
-		}
-	}
+            if($field == 'companyname'){
+                $headArr[]='公司名称';
+            }
+
+            if($field == 'principal'){
+                $headArr[]='负责人';
+            }
+
+            if($field == 'email'){
+                $headArr[]='零件号';
+            }
+
+            if($field == 'lytotalrevenue'){
+                $headArr[]='上一年度总收入面价';
+            }
+
+            if($field == 'lyratal'){
+                $headArr[]='上一年度纳税额';
+            }
+
+            if($field == 'tytotalrevenue'){
+                $headArr[]='截止目前今年总收入';
+            }
+            if($field == 'tyratal'){
+                $headArr[]='截止目前今年纳税额';
+            }
+
+            if($field == 'patent'){
+                $headArr[]='累计拥有专利数';
+            }
+
+            if($field == 'invent'){
+                $headArr[]='发明授权';
+            }
+
+            if($field == 'utilitymodel'){
+                $headArr[]='实用新型授权';
+            }
+
+            if($field == 'appearance'){
+                $headArr[]='外观授权';
+            }
+
+            if($field == 'soft'){
+                $headArr[]='软著授权';
+            }
+
+            if($field == 'employee'){
+                $headArr[]='员工人数';
+            }
+
+            if($field == 'paysocial'){
+                $headArr[]='缴纳社保人数';
+            }
+
+            if($field == 'science'){
+                $headArr[]='科技研发人员数';
+            }
+
+            if($field == 'awardget'){
+                $headArr[]='累计获得奖项';
+            }
+
+            if($field == 'nowtotalrevenue'){
+                $headArr[]='截止目前今年总收入';
+            }
+
+            if($field == 'nowratal'){
+                $headArr[]='截止目前今年纳税额';
+            }
+
+            if($field == 'typatent'){
+                $headArr[]='新增专利数';
+            }
+
+            if($field == 'tyemployee'){
+                $headArr[]='员工人数';
+            }
+
+            if($field == 'tysocial'){
+                $headArr[]='缴纳社保人数';
+            }
+            
+            if($field == 'tyaward'){
+                $headArr[]='新增奖项';
+            }
+        }
+
+        $filename="goods_list";
+
+        $this->getExcel($filename,$headArr,$data);
+    }
+
+	private  function getExcel($fileName,$headArr,$data){
+        //导入PHPExcel类库，因为PHPExcel没有用命名空间，只能inport导入
+        import("Org.Util.PHPExcel");
+        import("Org.Util.PHPExcel.Writer.Excel5");
+        import("Org.Util.PHPExcel.IOFactory.php");
+
+        $date = date("Y_m_d",time());
+        $fileName .= "_{$date}.xls";
+
+        //创建PHPExcel对象，注意，不能少了\
+        $objPHPExcel = new \PHPExcel();
+        $objProps = $objPHPExcel->getProperties();
+
+        //设置表头
+        $key = ord("A");
+        //print_r($headArr);exit;
+        foreach($headArr as $v){
+            $colum = chr($key);
+            $objPHPExcel->setActiveSheetIndex(0) ->setCellValue($colum.'1', $v);
+            $objPHPExcel->setActiveSheetIndex(0) ->setCellValue($colum.'1', $v);
+            $key += 1;
+        }
+
+        $column = 2;
+        $objActSheet = $objPHPExcel->getActiveSheet();
+
+        //print_r($data);exit;
+        foreach($data as $key => $rows){ //行写入
+            $span = ord("A");
+            foreach($rows as $keyName=>$value){// 列写入
+                $j = chr($span);
+                $objActSheet->setCellValue($j.$column, $value);
+                $span++;
+            }
+            $column++;
+        }
+
+        $fileName = iconv("utf-8", "gb2312", $fileName);
+
+        //重命名表
+        //$objPHPExcel->getActiveSheet()->setTitle('test');
+        //设置活动单指数到第一个表,所以Excel打开这是第一个表
+        $objPHPExcel->setActiveSheetIndex(0);
+        ob_end_clean();//清除缓冲区,避免乱码
+        header('Content-Type: application/vnd.ms-excel');
+        header("Content-Disposition: attachment;filename=\"$fileName\"");
+        header('Cache-Control: max-age=0');
+
+        $objWriter = \PHPExcel_IOFactory::createWriter($objPHPExcel, 'Excel5');
+        $objWriter->save('php://output'); //文件通过浏览器下载
+        exit;
+    }
 }

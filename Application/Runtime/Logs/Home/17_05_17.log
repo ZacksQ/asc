@@ -1,0 +1,113 @@
+[ 2017-05-17T17:03:19+08:00 ] ::1 /yy/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.025970s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005926s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006073s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000201s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.110501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.110748s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015172s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015332s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005897s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006134s ]
+
+[ 2017-05-17T19:26:23+08:00 ] ::1 /yy/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.035834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.036000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000222s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.120067s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.120231s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001080s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001206s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.038813s ]
+INFO: [ app_end ] --END-- [ RunTime:0.038962s ]
+
+[ 2017-05-17T19:26:35+08:00 ] ::1 /yy/index.php/Home/Index/signin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000856s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000915s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001098s ]
+SQL: SHOW COLUMNS FROM `wc_users` [ RunTime:0.0508s ]
+SQL: SELECT * FROM `wc_users` WHERE ( username = 'admin2' and password = '40bd001563085fc35165329ea1ff5c5ecbdbbeef' ) LIMIT 1   [ RunTime:0.0587s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001231s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001388s ]
+
+[ 2017-05-17T19:26:38+08:00 ] ::1 /yy/index.php/Home/Index/signin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000791s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000830s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000953s ]
+SQL: SHOW COLUMNS FROM `wc_users` [ RunTime:0.0516s ]
+SQL: SELECT * FROM `wc_users` WHERE ( username = 'user2' and password = '40bd001563085fc35165329ea1ff5c5ecbdbbeef' ) LIMIT 1   [ RunTime:0.0579s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001129s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001375s ]
+
+[ 2017-05-17T19:26:43+08:00 ] ::1 /yy/index.php/Home/Index/showdata.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000900s ]
+SQL: SHOW COLUMNS FROM `wc_users` [ RunTime:0.0504s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000223s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.401795s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.402002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002109s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002297s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000902s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001033s ]
+
+[ 2017-05-17T19:26:43+08:00 ] ::1 /yy/index.php/Home/Index/showdata.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001006s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000878s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001016s ]
+SQL: SHOW COLUMNS FROM `wc_users` [ RunTime:0.0398s ]
+SQL: SELECT * FROM `wc_users` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0497s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001022s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001157s ]
+
+[ 2017-05-17T22:36:02+08:00 ] ::1 /yy/index.php/Home/Index/showdata.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016202s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001589s ]
+SQL: SHOW COLUMNS FROM `wc_users` [ RunTime:0.0326s ]
+SQL: UPDATE `wc_users` SET `nowtotalrevenue`='后台按钮改申报数据',`nowratal`='23',`typatent`='55',`tyemployee`='3',`tysocial`='3',`tyaward`='4' WHERE ( id = 4 ) [ RunTime:0.0688s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001723s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001851s ]
+
