@@ -88,7 +88,7 @@
             <th>负责人</th>
             <th>电子邮箱</th>      
             <th>上一年度总收入</th>      
-            <th>截止目前今年总收入</th>      
+            <th>联系电话</th>      
             <th>管理</th>
           </tr>
         </thead>
@@ -100,24 +100,10 @@
             <td><?php echo ($vo["principal"]); ?></td>
             <td><?php echo ($vo["email"]); ?></td>
             <td><?php echo ($vo["lytotalrevenue"]); ?></td>
-            <td><?php echo ($vo["tytotalrevenue"]); ?></td>          
+            <td><?php echo ($vo["tel"]); ?></td>          
             <td>
               <a href="<?php echo U('Index/cms_edit?cid='.$vo['id']);?>" >申报数据</a>
               <a href="<?php echo U('Index/cms_delete?id='.$vo['id']);?>">删除</a>
-              <!-- <div class="am-dropdown" data-am-dropdown>
-                <button class="am-btn am-btn-default am-btn-xs am-dropdown-toggle" data-am-dropdown-toggle>
-                  <span class="am-icon-cog"></span>
-                  <span class="am-icon-caret-down"></span>
-                </button>
-                <ul class="am-dropdown-content">
-                  <li>
-                    <a href="<?php echo U('Index/cms_edit?cid='.$vo['id']);?>">申报数据</a>
-                  </li>
-                  <li>
-                   <a href="<?php echo U('Index/cms_delete?id='.$vo['id']);?>">删除</a>
-                 </li>
-                </ul>
-              </div> -->
             </td>
           </tr><?php endforeach; endif; else: echo "" ;endif; ?>
         </tbody>

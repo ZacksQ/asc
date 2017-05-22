@@ -28,6 +28,10 @@
 				<input type="text" name="companyname" placeholder="请输入公司名称" class="txt">
 			</div>
 			<div class="form-item">
+				<label for="">联系电话</label>
+				<input type="text" name="tel" placeholder="请输入联系电话" class="txt">
+			</div>
+			<div class="form-item">
 				<label for="">负责人</label>
 				<input type="text" name="principal" class="txt">
 			</div>
@@ -154,6 +158,10 @@
 				}
 				if($.trim(postdata.email) == ""){
 					layer.msg("电子邮箱不能为空");
+					return false;	
+				}
+				if($.trim(postdata.tel) == ""){
+					layer.msg("联系电话不能为空");
 					return false;	
 				}
 				$.ajax({

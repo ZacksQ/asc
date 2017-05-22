@@ -1,0 +1,110 @@
+[ 2017-05-20T18:39:14+08:00 ] ::1 /yy/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.022660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022932s ]
+
+[ 2017-05-20T18:39:15+08:00 ] ::1 /yy/index.php/Home/Index/showdata.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001112s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000996s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001208s ]
+SQL: SHOW COLUMNS FROM `wc_users` [ RunTime:0.0600s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000319s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.409953s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.410242s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.017421s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.017721s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009410s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009700s ]
+
+[ 2017-05-20T18:39:17+08:00 ] ::1 /yy/index.php/Home/Index/showdata.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001549s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003841s ]
+SQL: SHOW COLUMNS FROM `wc_users` [ RunTime:0.0602s ]
+SQL: SELECT * FROM `wc_users` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0293s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001187s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001346s ]
+
+[ 2017-05-20T18:39:33+08:00 ] ::1 /yy/index.php/Home/Index/showdata.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000656s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001104s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001381s ]
+SQL: SHOW COLUMNS FROM `wc_users` [ RunTime:0.0642s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000186s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000473s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014593s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014781s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000765s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000832s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000999s ]
+
+[ 2017-05-20T18:39:33+08:00 ] ::1 /yy/index.php/Home/Index/showdata.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001171s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001427s ]
+SQL: SHOW COLUMNS FROM `wc_users` [ RunTime:0.0592s ]
+SQL: SELECT * FROM `wc_users` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0305s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000893s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001046s ]
+
+[ 2017-05-20T18:43:16+08:00 ] ::1 /yy/index.php/Home/Index/showdata.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000727s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001244s ]
+SQL: SHOW COLUMNS FROM `wc_users` [ RunTime:0.0644s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000337s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014591s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014848s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000667s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000871s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001045s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001242s ]
+
+[ 2017-05-20T18:43:16+08:00 ] ::1 /yy/index.php/Home/Index/showdata.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001240s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001835s ]
+SQL: SHOW COLUMNS FROM `wc_users` [ RunTime:0.0644s ]
+SQL: SELECT * FROM `wc_users` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0304s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000980s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001145s ]
+

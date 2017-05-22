@@ -29,7 +29,7 @@
             <th>负责人</th>
             <th>电子邮箱</th>      
             <th>上一年度总收入</th>      
-            <th>截止目前今年总收入</th>      
+            <th>联系电话</th>      
             <th>管理</th>
           </tr>
         </thead>
@@ -42,7 +42,7 @@
             <td>{$vo.principal}</td>
             <td>{$vo.email}</td>
             <td>{$vo.lytotalrevenue}</td>
-            <td>{$vo.tytotalrevenue}</td>          
+            <td>{$vo.tel}</td>          
             <td>
               <a href="{:U('Index/cms_edit?cid='.$vo['id'])}" >申报数据</a>
               <a href="{:U('Index/cms_delete?id='.$vo['id'])}">删除</a>

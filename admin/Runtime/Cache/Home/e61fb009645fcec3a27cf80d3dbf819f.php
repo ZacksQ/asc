@@ -59,125 +59,120 @@
   <!-- content start -->
   <div class="admin-content">
     
+  <style>
+  [class*=am-u-]{
+    font-size: 13px;
+  }
+</style>
   <div class="am-cf am-padding">
     <div class="am-fl am-cf"> <strong class="am-text-primary am-text-lg">企业管理</strong>
       /
       <small><?php echo ($title); ?></small>
     </div>
     <a href="<?php echo U('download',array('cid'=>$_GET['cid']));?>" target="_new" class="am-fr am-btn am-btn-primary am-btn-xs search-btn" id="downexcel">导出数据</a>
+
+    <a href="javascript:;" target="_new" class="am-fr am-btn am-btn-primary am-btn-xs" onclick="window.print()">打印</a>
   </div>
 
   <div class="am-g">
     <div class="am-u-sm-12">      
         <div class="am-g am-margin-top">
-          <div class="am-u-sm-4 am-u-md-5 am-text-right">企业名称：</div>
-          <div class="am-u-sm-8 am-u-md-7">
+          <div class="am-u-sm-4 am-u-md-2 am-text-right">企业名称：</div>
+          <div class="am-u-sm-8 am-u-md-2">
             <?php echo ($vo["companyname"]); ?></div>          
-        </div>
-        <div class="am-g am-margin-top">
-          <div class="am-u-sm-4 am-u-md-5 am-text-right">负责人：</div>
-          <div class="am-u-sm-8 am-u-md-7">
-            <?php echo ($vo["principal"]); ?></div>          
-        </div>
-        <div class="am-g am-margin-top">
-          <div class="am-u-sm-4 am-u-md-5 am-text-right">Email：</div>
-          <div class="am-u-sm-8 am-u-md-7">
+        
+          <div class="am-u-sm-4 am-u-md-2 am-text-right">负责人：</div>
+          <div class="am-u-sm-8 am-u-md-2">
+            <?php echo ($vo["principal"]); ?></div>                  
+          <div class="am-u-sm-4 am-u-md-2 am-text-right">Email：</div>
+          <div class="am-u-sm-8 am-u-md-2">
             <?php echo ($vo["email"]); ?></div>          
         </div>
         <div class="am-g am-margin-top">
-          <div class="am-u-sm-4 am-u-md-5 am-text-right">上一年度总收入：</div>
-          <div class="am-u-sm-8 am-u-md-7">
+          <div class="am-u-sm-4 am-u-md-2 am-text-right">上一年度总收入：</div>
+          <div class="am-u-sm-8 am-u-md-2">
             <?php echo ($vo["lytotalrevenue"]); ?></div>          
-        </div>
-        <div class="am-g am-margin-top">
-          <div class="am-u-sm-4 am-u-md-5 am-text-right">上一年度纳税额：</div>
-          <div class="am-u-sm-8 am-u-md-7">
+        
+          <div class="am-u-sm-4 am-u-md-2 am-text-right">上一年度纳税额：</div>
+          <div class="am-u-sm-8 am-u-md-2">
             <?php echo ($vo["lyratal"]); ?></div>          
-        </div>
-        <div class="am-g am-margin-top">
-          <div class="am-u-sm-4 am-u-md-5 am-text-right">截止目前今年总收入：</div>
-          <div class="am-u-sm-8 am-u-md-7">
+        
+          <div class="am-u-sm-4 am-u-md-2 am-text-right">截止目前今年总收入：</div>
+          <div class="am-u-sm-8 am-u-md-2">
             <?php echo ($vo["tytotalrevenue"]); ?></div>          
         </div>
      <div class="am-g am-margin-top">
-          <div class="am-u-sm-4 am-u-md-5 am-text-right">截止目前今年纳税额：</div>
-          <div class="am-u-sm-8 am-u-md-7">
+          <div class="am-u-sm-4 am-u-md-2 am-text-right">截止目前今年纳税额：</div>
+          <div class="am-u-sm-8 am-u-md-2">
             <?php echo ($vo["tyratal"]); ?></div>          
-        </div>
-      <div class="am-g am-margin-top">
-          <div class="am-u-sm-4 am-u-md-5 am-text-right">累计拥有专利数：</div>
-          <div class="am-u-sm-8 am-u-md-7">
+        
+          <div class="am-u-sm-4 am-u-md-2 am-text-right">累计拥有专利数：</div>
+          <div class="am-u-sm-8 am-u-md-2">
             <?php echo ($vo["patent"]); ?></div>          
-        </div>
-        <div class="am-g am-margin-top">
-          <div class="am-u-sm-4 am-u-md-5 am-text-right">发明授权：</div>
-          <div class="am-u-sm-8 am-u-md-7">
+        
+          <div class="am-u-sm-4 am-u-md-2 am-text-right">发明授权：</div>
+          <div class="am-u-sm-8 am-u-md-2">
             <?php echo ($vo["invent"]); ?></div>          
         </div>
         <div class="am-g am-margin-top">
-          <div class="am-u-sm-4 am-u-md-5 am-text-right">实用新型授权：</div>
-          <div class="am-u-sm-8 am-u-md-7">
+          <div class="am-u-sm-4 am-u-md-2 am-text-right">实用新型授权：</div>
+          <div class="am-u-sm-8 am-u-md-2">
             <?php echo ($vo["utilitymodel"]); ?></div>          
-        </div>
-        <div class="am-g am-margin-top">
-          <div class="am-u-sm-4 am-u-md-5 am-text-right">外观授权：</div>
-          <div class="am-u-sm-8 am-u-md-7">
+        
+          <div class="am-u-sm-4 am-u-md-2 am-text-right">外观授权：</div>
+          <div class="am-u-sm-8 am-u-md-2">
             <?php echo ($vo["appearance"]); ?></div>          
-        </div>
-        <div class="am-g am-margin-top">
-          <div class="am-u-sm-4 am-u-md-5 am-text-right">软著授权：</div>
-          <div class="am-u-sm-8 am-u-md-7">
+        
+          <div class="am-u-sm-4 am-u-md-2 am-text-right">软著授权：</div>
+          <div class="am-u-sm-8 am-u-md-2">
             <?php echo ($vo["soft"]); ?></div>          
         </div>
         <div class="am-g am-margin-top">
-          <div class="am-u-sm-4 am-u-md-5 am-text-right">员工人数：</div>
-          <div class="am-u-sm-8 am-u-md-7">
+          <div class="am-u-sm-4 am-u-md-2 am-text-right">员工人数：</div>
+          <div class="am-u-sm-8 am-u-md-2">
             <?php echo ($vo["employee"]); ?></div>          
-        </div>
-        <div class="am-g am-margin-top">
-          <div class="am-u-sm-4 am-u-md-5 am-text-right">缴纳社保人数：</div>
-          <div class="am-u-sm-8 am-u-md-7">
+        
+          <div class="am-u-sm-4 am-u-md-2 am-text-right">缴纳社保人数：</div>
+          <div class="am-u-sm-8 am-u-md-2">
             <?php echo ($vo["paysocial"]); ?></div>          
-        </div>
-        <div class="am-g am-margin-top">
-          <div class="am-u-sm-4 am-u-md-5 am-text-right">科技研发人员数：</div>
-          <div class="am-u-sm-8 am-u-md-7">
+        
+          <div class="am-u-sm-4 am-u-md-2 am-text-right">科技研发人员数：</div>
+          <div class="am-u-sm-8 am-u-md-2">
             <?php echo ($vo["science"]); ?></div>          
         </div>
         <div class="am-g am-margin-top">
-          <div class="am-u-sm-4 am-u-md-5 am-text-right">累计获得奖项(获得时间-奖项或称号名称)：</div>
-          <div class="am-u-sm-8 am-u-md-7">
+          <div class="am-u-sm-4 am-u-md-2 am-text-right">累计获得奖项(获得时间-奖项或称号名称)：</div>
+          <div class="am-u-sm-8 am-u-md-2">
             <?php echo ($vo["awardget"]); ?></div>          
-        </div>
-        <div class="am-g am-margin-top">
-          <div class="am-u-sm-4 am-u-md-5 am-text-right">截止目前今年总收入：</div>
-          <div class="am-u-sm-8 am-u-md-7">
+        
+          <div class="am-u-sm-4 am-u-md-2 am-text-right">截止目前今年总收入：</div>
+          <div class="am-u-sm-8 am-u-md-2">
             <?php echo ($vo["nowtotalrevenue"]); ?></div>          
-        </div>
-        <div class="am-g am-margin-top">
-          <div class="am-u-sm-4 am-u-md-5 am-text-right">截止目前今年纳税额：</div>
-          <div class="am-u-sm-8 am-u-md-7">
+        
+          <div class="am-u-sm-4 am-u-md-2 am-text-right">截止目前今年纳税额：</div>
+          <div class="am-u-sm-8 am-u-md-2">
             <?php echo ($vo["nowratal"]); ?></div>          
         </div>
         <div class="am-g am-margin-top">
-          <div class="am-u-sm-4 am-u-md-5 am-text-right">新增专利数(注明类型)：</div>
-          <div class="am-u-sm-8 am-u-md-7">
+          <div class="am-u-sm-4 am-u-md-2 am-text-right">新增专利数(注明类型)：</div>
+          <div class="am-u-sm-8 am-u-md-2">
             <?php echo ($vo["typatent"]); ?></div>          
-        </div>
-        <div class="am-g am-margin-top">
-          <div class="am-u-sm-4 am-u-md-5 am-text-right">员工人数：</div>
-          <div class="am-u-sm-8 am-u-md-7">
+        
+          <div class="am-u-sm-4 am-u-md-2 am-text-right">员工人数：</div>
+          <div class="am-u-sm-8 am-u-md-2">
             <?php echo ($vo["tyemployee"]); ?></div>          
-        </div>
-        <div class="am-g am-margin-top">
-          <div class="am-u-sm-4 am-u-md-5 am-text-right">缴纳社保人数：</div>
-          <div class="am-u-sm-8 am-u-md-7">
+        
+          <div class="am-u-sm-4 am-u-md-2 am-text-right">缴纳社保人数：</div>
+          <div class="am-u-sm-8 am-u-md-2">
             <?php echo ($vo["tysocial"]); ?></div>          
         </div>
         <div class="am-g am-margin-top">
-          <div class="am-u-sm-4 am-u-md-5 am-text-right">新增奖项：</div>
-          <div class="am-u-sm-8 am-u-md-7">
-            <?php echo ($vo["tyaward"]); ?></div>          
+          <div class="am-u-sm-4 am-u-md-2 am-text-right">新增奖项：</div>
+          <div class="am-u-sm-8 am-u-md-2">
+            <?php echo ($vo["tyaward"]); ?></div> 
+            <div class="am-u-sm-4 am-u-md-2 am-text-right"></div>
+          <div class="am-u-sm-8 am-u-md-2">
+            </div>          
         </div>
     </div>
   </div>

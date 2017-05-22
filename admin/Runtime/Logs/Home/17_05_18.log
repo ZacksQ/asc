@@ -867,3 +867,69 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000788s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000912s ]
 
+[ 2017-05-18T16:22:50+08:00 ] ::1 /yy/admin.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000594s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001038s ]
+SQL: SHOW COLUMNS FROM `wc_users` [ RunTime:0.0800s ]
+SQL: SELECT * FROM `wc_users`  [ RunTime:0.0688s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000258s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.164091s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.164251s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015989s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016133s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000941s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001097s ]
+
+[ 2017-05-18T16:23:23+08:00 ] ::1 /yy/admin.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000991s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000895s ]
+SQL: SHOW COLUMNS FROM `wc_users` [ RunTime:0.0800s ]
+SQL: SELECT * FROM `wc_users`  [ RunTime:0.0890s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000235s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021950s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022114s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000774s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001085s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001266s ]
+
+[ 2017-05-18T16:23:34+08:00 ] ::1 /yy/admin.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000703s ]
+SQL: SHOW COLUMNS FROM `wc_users` [ RunTime:0.0602s ]
+SQL: SELECT * FROM `wc_users`  [ RunTime:0.0689s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000237s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018071s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018244s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000563s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000679s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000828s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000956s ]
+

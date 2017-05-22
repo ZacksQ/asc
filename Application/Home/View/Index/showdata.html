@@ -9,7 +9,85 @@
 	<link rel="stylesheet" href="__PUBLIC__/css/style.css">
 </head>
 <body class="register">
+	<div class="tip">
+		<span class="reds">*</span> 以下为您的基本资料及申报数据，点击页下的修改可修改资料数据
+	</div>
 	<form class="registerform" action="" method="post">
+		<fieldset>
+			<div class="form-item">
+				<label for="">公司名称</label>
+				<input type="text" name="companyname" placeholder="请输入公司名称" class="txt">
+			</div>
+			<div class="form-item">
+				<label for="">联系电话</label>
+				<input type="text" name="tel" placeholder="请输入联系电话" class="txt">
+			</div>
+			<div class="form-item">
+				<label for="">负责人</label>
+				<input type="text" name="principal" class="txt">
+			</div>
+			<div class="form-item">
+				<label for="">Email</label>
+				<input type="text" name="email" placeholder="请输入电子邮箱" class="txt">
+			</div>
+			<div class="form-item">
+				<label for="">上一年度总收入</label>
+				<input type="text" name="lytotalrevenue" class="txt">
+			</div>
+			<div class="form-item">
+				<label for="">上一年度纳税额</label>
+				<input type="text" name="lyratal" class="txt">
+			</div>
+			<div class="form-item">
+				<label for="">截止目前今年总收入</label>
+				<input type="text" name="tytotalrevenue" class="txt">
+			</div>
+			<div class="form-item">
+				<label for="">截止目前今年纳税额</label>
+				<input type="text" name="tyratal" class="txt">
+			</div>
+			<div class="form-item">
+				<label for="">累计拥有专利数</label>
+				<input type="text" name="patent" class="txt">
+			</div>
+			<div class="form-item">
+				<label for="">发明授权</label>
+				<input type="text" name="invent" class="txt">
+			</div>
+			<div class="form-item">
+				<label for="">实用新型授权</label>
+				<input type="text" name="utilitymodel" class="txt">
+			</div>
+			<div class="form-item">
+				<label for="">外观授权</label>
+				<input type="text" name="appearance" class="txt">
+			</div>
+			<div class="form-item">
+				<label for="">软著授权</label>
+				<input type="text" name="soft" class="txt">
+			</div>
+			<div class="form-item">
+				<label for="">员工人数</label>
+				<input type="number" name="employee" class="txt">
+			</div>
+			<div class="form-item">
+				<label for="">缴纳社保人数</label>
+				<input type="number" name="paysocial" class="txt">
+			</div>
+			<div class="form-item">
+				<label for="">科技研发人员数</label>
+				<input type="number" name="science" class="txt">
+			</div>
+		</fieldset>
+		<fieldset>
+			
+				<!-- <label for="">累计获得奖项</label> -->
+			
+			<div class="form-item">
+				<label for="">累计获得奖项(获得时间-奖项或称号名称)</label>
+				<textarea type="text" name="awardget" class="txtarea"></textarea>
+			</div>
+		</fieldset>
 		<fieldset>
 			<!-- <div class="form-item">
 				<label for="">每季度更新数据</label>
@@ -52,6 +130,23 @@
 				success: function(d){
 					if(d.success==true){
 						var data = d.data;
+						$("input[name=companyname]").val(data["companyname"]);
+						$("input[name=tel]").val(data["tel"]);
+						$("input[name=principal]").val(data["principal"]);
+						$("input[name=email]").val(data["email"]);
+						$("input[name=lytotalrevenue]").val(data["lytotalrevenue"]);
+						$("input[name=lyratal]").val(data["lyratal"]);
+						$("input[name=tytotalrevenue]").val(data["tytotalrevenue"]);
+						$("input[name=tyratal]").val(data["tyratal"]);
+						$("input[name=patent]").val(data["patent"]);
+						$("input[name=invent]").val(data["invent"]);
+						$("input[name=utilitymodel]").val(data["utilitymodel"]);
+						$("input[name=appearance]").val(data["appearance"]);
+						$("input[name=soft]").val(data["soft"]);
+						$("input[name=employee]").val(data["employee"]);
+						$("input[name=paysocial]").val(data["paysocial"]);
+						$("input[name=science]").val(data["science"]);
+						$("textarea[name=awardget]").val(data["awardget"]);
 						$("input[name=nowtotalrevenue]").val(data["nowtotalrevenue"]);
 						$("input[name=nowratal]").val(data["nowratal"]);
 						$("input[name=typatent]").val(data["typatent"]);

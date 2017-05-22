@@ -180,6 +180,7 @@ class IndexController extends Controller {
         	// echo $info_info['id'];exit;
             $data[$k][id] = $info_info['id'];
             $data[$k][companyname] = $info_info['companyname'];
+            $data[$k][tel] = $info_info['tel'];
             $data[$k][principal] = $info_info['principal'];
             $data[$k][email] = $info_info['email'];
             $data[$k][lytotalrevenue]  = $info_info['lytotalrevenue'];
@@ -213,6 +214,10 @@ class IndexController extends Controller {
 
             if($field == 'companyname'){
                 $headArr[]='公司名称';
+            }
+
+            if($field == 'tel'){
+                $headArr[]='联系电话';
             }
 
             if($field == 'principal'){
